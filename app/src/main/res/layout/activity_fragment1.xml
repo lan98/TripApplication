@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragment1Activity">
+
+    <fragment
+        android:name="com.swufe.tripapplication.HomeFragment"
+        android:id="@+id/fragment_home"
+        android:layout_weight="10"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <fragment
+        android:id="@+id/fragment_service"
+        android:name="com.swufe.tripapplication.ServiceFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="10" />
+
+    <fragment
+        android:id="@+id/fragment_help"
+        android:name="com.swufe.tripapplication.HelpFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="10" />
+
+    <RadioGroup
+        android:id="@+id/bottomGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioHome"
+            style="@style/rg_btn_style"
+            android:drawableTop="@drawable/home"
+            android:text="@string/rdo_home_lable" />
+
+        <RadioButton
+            android:id="@+id/radioService"
+            style="@style/rg_btn_style"
+            android:drawableTop="@drawable/service"
+            android:text="@string/rdo_help_lable" />
+
+        <RadioButton
+            android:id="@+id/radioHelp"
+            style="@style/rg_btn_style"
+            android:drawableTop="@drawable/help"
+            android:text="@string/rdo_service_lable" />
+
+    </RadioGroup>
+
+</LinearLayout>

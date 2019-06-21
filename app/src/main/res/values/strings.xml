@@ -1,0 +1,202 @@
+<resources>
+    <string name="app_name">TripApplication</string>
+    <string name="ZL">Welcome to ZL Travel Agency!</string>
+    <string name="click1"><![CDATA[Click to enter -->]]></string>
+    <string name="click2">About US</string>
+    <string name="title_activity_scrolling_aboutus">ScrollingActivity_aboutus</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="action_settings">Settings</string>
+    <string name="About_us" />
+    <string name="content">ZL Travel Agency is a new company which committing to providing customers with a better travel experice.
+        Our object is providing careful travel planning, customers can choose suitable and favorite tourist attractions according to our introduction of various famous tourist attractions.
+        We will introduce the unique features of each scenic spot according to the actual situation, as well as the surrounding environment, including accommodation, food and so on.
+        We will also attach pictures of each scenic spot for you to choose from. We hope you can choose our service, we will let you have a perfect trip.
+    </string>
+    <string name="rdo_home_lable">首页</string>
+    <string name="rdo_service_lable">服务</string>
+    <string name="rdo_help_lable">帮助</string>
+    <string name="lable_home">Country and region</string>
+    <string name="lable_China">1.China</string>
+    <string name="lable_South_Kroea">2.South Kroea</string>
+    <string name="lable_USA">The United State</string>
+    <string name="lable_France">4.France</string>
+    <string name="lable_USA2">3.The United States</string>
+    <string name="lable_UK">5.The United Kindom</string>
+    <string name="lable_Japan">6.Japan</string>
+    <string name="lable_India">7.India</string>
+    <string name="lable_Australia">8.Australia</string>
+    <string-array name="China">
+        <item>Beijing</item>
+        <item>Shanghai</item>
+        <item>Guangzhou</item>
+        <item>Chengdu</item>
+        <item>Hong Kong</item>
+        <item>Taiwan</item>
+    </string-array>
+    <string-array name="South_Korea">
+        <item>Seoul</item>
+        <item>Busan</item>
+        <item>Inchon</item>
+        <item>Daegu</item>
+    </string-array>
+    <string-array name="USA">
+        <item>New York</item>
+        <item>Los Angeles</item>
+        <item>Chicago</item>
+        <item>Houston</item>
+    </string-array>
+    <string-array name="France">
+        <item>Paris</item>
+        <item>Marseille</item>
+        <item>Lyon</item>
+        <item>Nice</item>
+    </string-array>
+    <string-array name="UK">
+        <item>London</item>
+        <item>Edinburgh</item>
+        <item>Cardiff</item>
+        <item>Liverpool</item>
+        <item>Oxford</item>
+        <item>Cambridge</item>
+        <item>Manchester</item>
+    </string-array>
+    <string-array name="Japan">
+        <item>Tokyo</item>
+        <item>Yokohama</item>
+        <item>Osaka</item>
+        <item>Nagoya</item>
+        <item>Kobe</item>
+    </string-array>
+    <string-array name="India">
+        <item>Bombay</item>
+        <item>Delhi</item>
+        <item>Bangalore</item>
+        <item>Kolkata</item>
+    </string-array>
+    <string-array name="Australia">
+        <item>Sydney</item>
+        <item>Canberra</item>
+        <item>Perth</item>
+        <item>Darwin</item>
+        <item>Melbourne</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Beijing1">Beijing, hereinafter referred to as \"jing\", is a provincial-level administrative region of the People\'s Republic of China, the capital, and municipalities directly under the central government, national center city, very large cities, the national political center, cultural center and international communication center, science and technology innovation center, is the world famous ancient capital and modern international city, is the central committee of the communist party of China, the central people\'s government of the People\'s Republic of China and the National People\'s Congress standing committee\'s office is located.Beijing is located in north China, with its center at 116°20 \'east longitude and 39°56\' north latitude. It adjoins tianjin in the east and hebei in the rest. The total area of Beijing is 16,410.54 square kilometers.Beijing terrain northwest high, southeast low. Mountains surround the west, north and northeast, and the southeast is a plain that slopes gently toward the bohai sea. The main rivers flowing through the territory are yongding river, chaobai river, north canal, and tuma river, etc. Most of them originate from the mountains in the northwest, run through the mountains, wind through the plain areas in the southeast, and finally merge into the bohai sea respectively. Beijing has a typical warm temperate semi-humid continental monsoon climate, with high temperature and rainy summer, cold and dry winter and short spring and autumn.</string>
+    <string name="Tiananmen">Tian \'anmen, the largest urban center square in the world, is the symbol of Beijing and even the whole China. Everyone in China must have \"witnessed\" its glory, but it is still exciting to be in it. Tian \'anmen rostrum is located in the north end of the square, the five-star red flag flying high above the square; The monument to the people\'s heroes stands in the middle of the square; The great hall of the people and the national museum of China are on opposite sides of the square. Chairman MAO memorial hall and zhengyang gate tower stand in the south of the square. Tian \'anmen square is a must-see place for almost all tourists, as well as a place for Beijing residents to relax. Skateboarding teenagers are often seen here, and kite dancing (especially in spring and autumn) is also a big sight. On major festivals, the square may hold rallies, set off fireworks, display flower beds or parade.</string>
+    <string name="Changcheng">The Great Wall, stretching thousands of miles from east to west; It has been built for more than 2,000 years. By climbing, partial to the cliff to nowhere, we can see the construction of its strange hardships. Its magnificent charm, aesthetic value, defensive function and military strategy are rare in the cultural legacy of the world. It is the miracle of the world, is a great miracle, because it is deeply admired and admired by the people of all countries. Standing on the Great Wall, whether it is spring flowers, autumn moon, summer clouds and winter snow, or see the Great Wall inside and outside the vast mountains, even the decline of the day grass, there is a strong sense of nostalgia. Perhaps, we have forgotten the ancient battlefield flying hu jia jige drum, flashing sword, but we will not forget in the last two thousand years to build thousands of ancestors of the Great Wall. Their amazing intelligence, incredible perseverance and amazing creativity not only shocked us, but also inspired us.</string>
+    <string name="Gugong">Beijing Palace Museum is the imperial palace of Ming and qing dynasties in China, formerly known as the Forbidden City, located in the center of the central axis of Beijing, is the essence of ancient Chinese palace architecture. Beijing Palace Museum to three main halls as the center, covers an area of 720,000 square meters, the construction area of about 150,000 square meters, there are more than 70 large and small palaces, more than 9,000 houses. It is one of the largest and most complete ancient wooden structures in the world.The Forbidden City in Beijing began construction in the fourth year of yongle (1406), based on the nanjing Palace Museum, until the 18th year of yongle (1420). It is a rectangular city, north and south 961 meters long, east and west 753 meters wide, surrounded by 10 meters high wall, outside there is 52 meters wide moat. The buildings inside the Forbidden City are divided into two parts: the outer court and the inner court. The center of the outer dynasty was the hall of supreme harmony, the hall of zhonghe and the hall of baohe, collectively known as the three main halls, where the state held a great ceremony. The center of the inner court is the dry qing palace, the house of Thailand, the palace of earthly tranquility, collectively known as the rear three palace, is the emperor and queen living in the palace.</string>
+    <string name="Yiheyuan">The Summer Palace, formerly known as the garden of clear ripples, is located in the western outskirts of Beijing. It is based on kunming lake, wanshou mountain as the site, to the west lake in hangzhou as the blueprint, from the jiangnan garden design techniques and built a large landscape garden, is also the most complete preservation of a royal palace garden, known as the \"royal garden museum\", is also a national key tourist attractions.Before emperor qianlong of the qing dynasty took over the throne, four large imperial gardens were built in the western suburbs of Beijing. In the 15th year of qianlong\'s reign (1750), emperor qianlong used 4.48 million taillons of silver to change it into a garden of clear ripples, which formed a royal garden area of 20 kilometers from present qinghua garden to fragrant hill. In the tenth year of xianfeng (1860), qingyi garden was burned down by the anglo-french allied forces. Guangxu 14 years (1888) reconstruction, renamed the Summer Palace, as summer recreation. Guangxu twenty-sixth year (1900), the Summer Palace was destroyed by the \"eight allied forces\", the treasures were looted. After the fall of the qing dynasty, the Summer Palace was destroyed again during the period of warlord warfare and kuomintang rule.</string>
+    <string name="lable_click">please select the city you want:</string>
+    <string name="lable_Tiananmen">Tiananmen</string>
+    <string name="lable_changcheng">The Great Wall</string>
+    <string name="lable_huhong">Beijing Palace Museum</string>
+    <string name="lable_yiheyuan">The Summer Palace</string>
+    <string name="lable1">Beijing</string>
+    <string name="lable2">Shanghai</string>
+    <string name="lable3">Chengdu</string>
+    <string name="lable4">Hong Kong</string>
+    <string name="lable5">Taiwan</string>
+    <string name="btnChina">China</string>
+    <string name="btnKroea">Kroea</string>
+    <string name="btnUSA">USA</string>
+    <string name="btnFrance">France</string>
+    <string name="btnUK">UK</string>
+    <string name="btnJapan">Japan</string>
+    <string name="btnIndia">India</string>
+    <string name="btnAustralia">Australia</string>
+    <string name="Shanghai1">Shanghai, the largest city in China and one of the municipalities directly under the central government of the People\'s Republic of China, is the national center of China and a prosperous international metropolis. It is located at the mouth of the Yangtze river, facing the east China sea, facing kyushu island of Japan, facing hangzhou bay in the south, and facing jiangsu and zhejiang provinces in the west. Shanghai has a subtropical humid monsoon climate with four distinct seasons. January is the coldest month with an average temperature of 4.9℃, while July is usually the hottest month with an average temperature of 30.9℃. Shanghai has a profound modern urban culture and numerous historical sites. The traditional culture of wu and yue in the south of the Yangtze river has merged with the diverse culture brought by immigrants from all over the country, forming a unique Shanghai culture.Shanghai is a national famous historical and cultural city, with 19 national key cultural relic protection units, 136 Shanghai cultural relic protection units and 4 city-level historic and cultural towns in Shanghai.</string>
+    <string name="zhonggongyidahuizhi">The first national congress of the communist party of China (CPC) is the birthplace of the CPC. The meeting site is located at 76 xingye road (no. 106 wangzhi road), Shanghai. It is an old shikumen residential building with brick and wood structure at the bottom and the first floor along the street. The site of the CPC national congress was listed by the state council as one of the first batch of national key cultural relics under protection and a national patriotism education demonstration base. In September 2016, it was included in the \"first batch of China\'s 20th century architectural heritage\" list.</string>
+    <string name="chenghuangmiao">Shanghai chenghuang Temple (the City God Temple of Shanghai), its history dates back over 600 years, starting from the Ming dynasty was built to contemporary through vicissitudes of life, Shanghai chenghuang Temple has become Shanghai\'s famous tourist attractions, as a Taoist Temple, Shanghai chenghuang Temple has a long history and enjoys a high reputation both at home and abroad, with the development of the economy, has become the Shanghai on the above, small snacks chenghuang Temple Taoist Temple, the City God Temple, yuyuan garden ring around, present a Shanghai chenghuang Temple culture.Cheng huang, also known as cheng huang god, was one of the important gods worshiping in ancient Chinese religious culture. Most of the gods were famous ministers and heroes who had made contributions to the local people.</string>
+    <string name="daguanyuan">Shanghai grand view garden is located at no. 701, qingshang road, qingpu district, Shanghai. It is located at the west side of dianshan lake, 65 kilometers away from Shanghai urban area. Originally named dianshan lake scenic area, it was renamed Shanghai grand view garden in 1991, covering an area of 1500 mu. It is the key unit of Shanghai spiritual civilization construction, and after repeated renovation and expansion, it is a comprehensive amusement park integrating sightseeing, tourism and leisure.Shanghai grand view garden is a large-scale archaized garden designed according to the description of Chinese qing dynasty classic dream of red mansions. The garden complex is planned and designed by liang yousong, Shanghai garden courtyard. The overall layout takes the grand view building as the main body, from \"the provincial relatives villa\" the stone archway, the stone lantern, qinfang lake, the body ren mu DE, the winding path leads to you, the palace gate, \"the too empty illusion\" the relief screen wall, the wooden archway and so on forms the whole garden central axis. In the west, there are yihong courtyard, loncui nunnery, pear fragrant courtyard and marble fang. In the east, there are more than 20 groups of architectural scenic spots such as xiaoxiang pavilion, heng wu hospital, polygonum wind house and daoxiang village.</string>
+    <string name="yuyuan">Yu Garden is located in the northeast of the old city of Shanghai, with fuyou road in the north, anren street in the east and old town god\'s temple in the southwest.In the garden, there are three famous stone known as the jade linglong, in the south of the Yangtze river, the command post of the small sword uprising in 1853 point spring hall, the side of the garden has the town god\'s temple and shop street and other tourist attractions.Yuyuan garden was opened to the public in 1961 and was listed by the state council as a national key cultural relic protection unit in 1982.</string>
+</resources>

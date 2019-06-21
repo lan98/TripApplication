@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".BeijingFirstActivity">
+
+    <TextView
+        android:textSize="30sp"
+        android:id="@+id/Enter_Beijing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lable_click" />
+
+    <Button
+        android:id="@+id/Beijing"
+        android:onClick="openBeijing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lable1"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/Shanghai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lable2"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/Chengdu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lable3"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/Hong_Kong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lable4"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/Taiwan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lable5"
+        android:textSize="25sp" />
+
+</LinearLayout>

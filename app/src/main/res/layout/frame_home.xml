@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fadingEdge="vertical">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/homeTextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lable_home"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/btnChina"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:text="@string/lable_China"
+        android:onClick="onClick1"
+        android:textColor="#44BDED"
+        android:textSize="30sp" />
+
+
+
+
+    <Button
+        android:id="@+id/btnKroea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:text="@string/lable_South_Kroea"
+        android:textColor="#44BDED"
+        android:textSize="30sp" />
+
+
+
+
+    <Button
+        android:id="@+id/btnUSA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:text="@string/lable_USA2"
+        android:textColor="#44BDED"
+        android:textSize="30sp" />
+
+
+
+
+    <Button
+        android:id="@+id/btnFrance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:text="@string/lable_France"
+        android:textColor="#44BDED"
+        android:textSize="30sp" />
+
+
+
+
+    <Button
+        android:id="@+id/btnUK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:text="@string/lable_UK"
+        android:textColor="#44BDED"
+        android:textSize="30sp" />
+
+
+
+
+    <Button
+        android:id="@+id/btnJapan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:text="@string/lable_Japan"
+        android:textColor="#44BDED"
+        android:textSize="30sp" />
+
+
+
+
+
+    <Button
+        android:id="@+id/btnIndia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:text="@string/lable_India"
+        android:textColor="#44BDED"
+        android:textSize="30sp" />
+
+
+
+
+    <Button
+        android:id="@+id/btnAustralia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:text="@string/lable_Australia"
+        android:textColor="#44BDED"
+        android:textSize="30sp" />
+
+
+
+
+</LinearLayout>
+</ScrollView>
