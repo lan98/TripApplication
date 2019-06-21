@@ -11,6 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="501dp"
         android:gravity="center"
+        android:textColor="#b2ff59"
         android:text="@string/yuyuan"
         android:textSize="30sp" />
 

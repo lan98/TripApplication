@@ -15,10 +15,12 @@ import android.widget.Toast;
 
 public class HomeFragment extends Fragment{
     private Button btnChina;
+    private Button btnKroea;
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.frame_home, container);
         btnChina= (Button)view.findViewById(R.id.btnChina);
+        btnKroea=(Button)view.findViewById(R.id.btnKroea);
         btnChina.setOnClickListener(new View.OnClickListener(){
 
             @Override
@@ -28,6 +30,14 @@ public class HomeFragment extends Fragment{
 
             }
 
+        });
+        btnKroea.setOnClickListener(new View.OnClickListener(){
+
+            @Override
+            public void onClick(View v) {
+                Intent intentKroea=new Intent(getActivity(), ShanghaiActivity.class);
+                startActivity(intentKroea);
+            }
         });
 
         return view;

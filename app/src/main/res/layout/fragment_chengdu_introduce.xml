@@ -3,16 +3,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/shanghaiinttroduce"
-    tools:context=".ShanghaiIntroduceFragment">
+    android:background="@drawable/chengduintroduce"
+    tools:context=".ChengduIntroduceFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="501dp"
         android:gravity="center"
-        android:textColor="#212121"
-        android:text="@string/Shanghai1"
+        android:textColor="#76ff03"
+        android:text="@string/chengdu_introduce"
         android:textSize="30sp" />
 
 </FrameLayout>

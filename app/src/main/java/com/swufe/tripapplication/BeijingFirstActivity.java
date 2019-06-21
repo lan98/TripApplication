@@ -37,4 +37,17 @@ public class BeijingFirstActivity extends AppCompatActivity implements View.OnCl
         Intent intent1 = new Intent(this,BeijingActivity.class);
         startActivity(intent1);
     }
+
+    public void openShanghai(View btn){
+        Log.i("open","openShanghai:");
+        Intent intent2 = new Intent(this,ShanghaiActivity.class);
+        startActivity(intent2);
+    }
+
+    public void openChengdu(View btn){
+        Log.i("open","openChengdu:");
+        Intent intent3 = new Intent(this,ChengduActivity.class);
+        startActivity(intent3);
+    }
+
 }

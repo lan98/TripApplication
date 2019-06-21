@@ -12,6 +12,7 @@
         android:layout_height="501dp"
         android:gravity="center"
         android:textSize="30sp"
+        android:textColor="#ff1744"
         android:text="@string/daguanyuan" />
 
 </FrameLayout>

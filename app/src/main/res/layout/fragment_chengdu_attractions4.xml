@@ -3,8 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/shanghaiinttroduce"
-    tools:context=".ShanghaiIntroduceFragment">
+    android:background="@drawable/chengdu4"
+    tools:context=".ChengduAttractions4Fragment">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
@@ -12,7 +12,7 @@
         android:layout_height="501dp"
         android:gravity="center"
         android:textColor="#212121"
-        android:text="@string/Shanghai1"
+        android:text="@string/dufucaotang"
         android:textSize="30sp" />
 
 </FrameLayout>
