@@ -37,13 +37,13 @@ public class UKActivity extends AppCompatActivity implements View.OnClickListene
 
     public void openEdinburgh(View btn){
         Log.i("open","openEdiburgh:");
-        Intent intent2 = new Intent(this,NYActivity.class);
+        Intent intent2 = new Intent(this,EdinburghActivity.class);
         startActivity(intent2);
     }
 
     public void openCardiff(View btn){
         Log.i("open","openCardiff:");
-        Intent intent3 = new Intent(this,NYActivity.class);
+        Intent intent3 = new Intent(this,CardiffActivity.class);
         startActivity(intent3);
     }
 }

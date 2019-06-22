@@ -60,7 +60,7 @@ public class HomeFragment extends Fragment{
         btnUK.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intentUK=new Intent(getActivity(), FranceActivity.class);
+                Intent intentUK=new Intent(getActivity(), UKActivity.class);
                 startActivity(intentUK);
             }
         }) ;
