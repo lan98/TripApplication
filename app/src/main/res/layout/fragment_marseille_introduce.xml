@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ParisIntroduceFragment">
+    tools:context=".MarseilleIntroduceFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <LinearLayout
@@ -14,7 +14,7 @@
             android:contentDescription=""
             android:layout_width="match_parent"
             android:layout_height="177dp"
-            android:background="@drawable/paris0" />
+            android:background="@drawable/ma0" />
 
     </LinearLayout>
 
@@ -33,7 +33,7 @@
             android:layout_width="match_parent"
             android:layout_height="501dp"
             android:gravity="center"
-            android:text="@string/paris"
+            android:text="@string/ma"
             android:textColor="#1b5e20"
             android:textSize="30sp" />
 

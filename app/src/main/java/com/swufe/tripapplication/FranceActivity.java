@@ -31,25 +31,25 @@ public class FranceActivity extends AppCompatActivity implements View.OnClickLis
 
     public void openParis(View btn){
         Log.i("open","openParis:");
-        Intent intent1 = new Intent(this,KroeaActivity.class);
+        Intent intent1 = new Intent(this,ParisActivity.class);
         startActivity(intent1);
     }
 
     public void openMarseille(View btn){
         Log.i("open","openMarseille:");
-        Intent intent2 = new Intent(this,KroeaActivity.class);
+        Intent intent2 = new Intent(this,MarseilleActivity.class);
         startActivity(intent2);
     }
 
     public void openLyon(View btn){
         Log.i("open","openMarseille:");
-        Intent intent3 = new Intent(this,KroeaActivity.class);
+        Intent intent3 = new Intent(this,LyonActivity.class);
         startActivity(intent3);
     }
 
     public void openNice(View btn){
         Log.i("open","openNice:");
-        Intent intent4 = new Intent(this,KroeaActivity.class);
+        Intent intent4 = new Intent(this,LyonActivity.class);
         startActivity(intent4);
     }
 }

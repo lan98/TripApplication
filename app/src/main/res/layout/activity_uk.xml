@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UKActivity">
+
+    <TextView
+        android:textSize="30sp"
+        android:id="@+id/Enter_UK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lable_click" />
+
+    <Button
+        android:id="@+id/London"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="openLondon"
+        android:text="@string/lable51"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/Ediburgh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="openEdiburgh"
+        android:text="@string/lable52"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/Cardiff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="openCardiff"
+        android:text="@string/lable53"
+        android:textSize="25sp" />
+
+
+
+</LinearLayout>

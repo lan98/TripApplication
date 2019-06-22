@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ParisIntroduceFragment">
+    tools:context=".LyonAttractions1Fragment">
 
     <!-- TODO: Update blank fragment layout -->
     <LinearLayout
@@ -14,7 +14,7 @@
             android:contentDescription=""
             android:layout_width="match_parent"
             android:layout_height="177dp"
-            android:background="@drawable/paris0" />
+            android:background="@drawable/lyon1" />
 
     </LinearLayout>
 
@@ -23,21 +23,21 @@
         android:layout_height="match_parent"
         android:padding="8dp">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="527dp"
-        android:layout_marginTop="177dp"
-        android:orientation="vertical">
-
-        <TextView
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="501dp"
-            android:gravity="center"
-            android:text="@string/paris"
-            android:textColor="#1b5e20"
-            android:textSize="30sp" />
+            android:layout_height="527dp"
+            android:layout_marginTop="177dp"
+            android:orientation="vertical">
 
-    </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="501dp"
+                android:gravity="center"
+                android:text="@string/jiaotang"
+                android:textColor="#1b5e20"
+                android:textSize="30sp" />
+        </LinearLayout>
+
     </ScrollView>
 
 </FrameLayout>
