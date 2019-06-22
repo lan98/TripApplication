@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".KroeaActivity">
+
+    <TextView
+        android:textSize="30sp"
+        android:id="@+id/Enter_Kroea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lable_click" />
+
+    <Button
+        android:id="@+id/Seoul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="openSeoul"
+        android:text="@string/lable21"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/Busan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="openBusan"
+        android:text="@string/lable22"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/Inchon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="openInchon"
+        android:text="@string/lable23"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/Daegu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="openDaegu"
+        android:text="@string/lable24"
+        android:textSize="25sp" />
+
+
+</LinearLayout>

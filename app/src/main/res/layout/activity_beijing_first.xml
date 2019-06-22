@@ -47,6 +47,7 @@
         android:textSize="25sp" />
 
     <Button
+        android:onClick="openTaiwan"
         android:id="@+id/Taiwan"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

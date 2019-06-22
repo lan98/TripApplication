@@ -33,6 +33,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="start"
+        android:onClick="onClick2"
         android:text="@string/lable_South_Kroea"
         android:textColor="#44BDED"
         android:textSize="30sp" />

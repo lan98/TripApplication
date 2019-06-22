@@ -32,6 +32,12 @@ public class BeijingFirstActivity extends AppCompatActivity implements View.OnCl
 
     }
 
+    public void onClick1(View btn){
+        Log.i("open","openChina:");
+        Intent intent0 = new Intent(this,BeijingFirstActivity.class);
+        startActivity(intent0);
+    }
+
     public void openBeijing(View btn){
         Log.i("open","openBeijing:");
         Intent intent1 = new Intent(this,BeijingActivity.class);
@@ -54,6 +60,12 @@ public class BeijingFirstActivity extends AppCompatActivity implements View.OnCl
         Log.i("open","openHK:");
         Intent intent4 = new Intent(this,HKActivity.class);
         startActivity(intent4);
+    }
+
+    public void openTaiwan(View btn){
+        Log.i("open","openTaiwan:");
+        Intent intent5 = new Intent(this,TaiwanActivity.class);
+        startActivity(intent5);
     }
 
 }

@@ -1,17 +1,13 @@
 package com.swufe.tripapplication;
 
-import android.app.AlertDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.ImageButton;
 import android.widget.TextView;
-import android.widget.Toast;
 
 public class HomeFragment extends Fragment{
     private Button btnChina;
@@ -35,9 +31,10 @@ public class HomeFragment extends Fragment{
 
             @Override
             public void onClick(View v) {
-                Intent intentKroea=new Intent(getActivity(), ShanghaiActivity.class);
+                Intent intentKroea=new Intent(getActivity(), KroeaActivity.class);
                 startActivity(intentKroea);
             }
+
         });
 
         return view;

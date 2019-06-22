@@ -3,16 +3,42 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/gugong"
     tools:context=".BeijingAttractions3Fragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="501dp"
-        android:gravity="center"
-        android:text="@string/Gugong"
-        android:textColor="#fafafa"
-        android:textSize="30sp" />
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:contentDescription=""
+            android:layout_width="match_parent"
+            android:layout_height="177dp"
+            android:background="@drawable/gugong" />
+
+    </LinearLayout>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="527dp"
+            android:layout_marginTop="177dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="501dp"
+                android:gravity="center"
+                android:text="@string/Gugong"
+                android:textColor="#1b5e20"
+                android:textSize="30sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
 
 </FrameLayout>
