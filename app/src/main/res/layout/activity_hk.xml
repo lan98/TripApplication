@@ -5,18 +5,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:id="@+id/activity_beijing"
-    tools:context=".BeijingActivity">
+    android:id="@+id/activity_hk"
+    tools:context=".HKActivity">
 
     <android.support.design.widget.TabLayout
-        android:id="@+id/beijing"
+        android:id="@+id/HK"
         android:layout_width="match_parent"
         style="@style/MyCustomTabLayout"
         android:layout_height="wrap_content"
         app:tabMode="fixed"/>
 
     <android.support.v4.view.ViewPager
-        android:id="@+id/viewpager11"
+        android:id="@+id/viewpager14"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
 

@@ -20,10 +20,11 @@
         <activity android:name=".ScrollView_aboutus" />
         <activity android:name=".HomePage" />
         <activity android:name=".Fragment1Activity" />
-        <activity android:name=".BeijingActivity" />
         <activity android:name=".BeijingFirstActivity" />
         <activity android:name=".ShanghaiActivity" />
-        <activity android:name=".ChengduActivity"></activity>
+        <activity android:name=".ChengduActivity" />
+        <activity android:name=".HKActivity" />
+        <activity android:name=".BeijingActivity"></activity>
     </application>
 
 </manifest>

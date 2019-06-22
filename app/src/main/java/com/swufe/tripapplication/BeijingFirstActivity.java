@@ -50,4 +50,10 @@ public class BeijingFirstActivity extends AppCompatActivity implements View.OnCl
         startActivity(intent3);
     }
 
+    public void openHK(View btn){
+        Log.i("open","openHK:");
+        Intent intent4 = new Intent(this,HKActivity.class);
+        startActivity(intent4);
+    }
+
 }
