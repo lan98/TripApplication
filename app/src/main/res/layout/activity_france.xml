@@ -3,47 +3,47 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".USAActivity">
+    android:layout_height="match_parent"
+    tools:context=".FranceActivity">
 
     <TextView
         android:textSize="30sp"
-        android:id="@+id/Enter_USA"
+        android:id="@+id/Enter_France"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/lable_click" />
 
     <Button
-        android:id="@+id/NY"
+        android:id="@+id/Paris"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="openNY"
-        android:text="@string/lable31"
+        android:onClick="openParis"
+        android:text="@string/lable41"
         android:textSize="25sp" />
 
     <Button
-        android:id="@+id/LA"
+        android:id="@+id/Marseille"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="openLA"
-        android:text="@string/lable32"
+        android:onClick="openMarseille"
+        android:text="@string/lable42"
         android:textSize="25sp" />
 
     <Button
-        android:id="@+id/Chicago"
+        android:id="@+id/Lyon"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="openChicago"
-        android:text="@string/lable33"
+        android:onClick="openLyon"
+        android:text="@string/lable43"
         android:textSize="25sp" />
 
     <Button
-        android:id="@+id/Houston"
+        android:id="@+id/Nice"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="openHouston"
-        android:text="@string/lable34"
+        android:onClick="openLyon"
+        android:text="@string/lable44"
         android:textSize="25sp" />
 
 </LinearLayout>

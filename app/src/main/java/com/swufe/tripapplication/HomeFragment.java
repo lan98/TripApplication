@@ -12,11 +12,15 @@ import android.widget.TextView;
 public class HomeFragment extends Fragment{
     private Button btnChina;
     private Button btnKroea;
+    private Button btnUSA;
+    private Button btnFrance;
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.frame_home, container);
         btnChina= (Button)view.findViewById(R.id.btnChina);
         btnKroea=(Button)view.findViewById(R.id.btnKroea);
+        btnUSA =(Button)view.findViewById(R.id.btnUSA);
+        btnFrance =(Button)view.findViewById(R.id.btnFrance);
         btnChina.setOnClickListener(new View.OnClickListener(){
 
             @Override
@@ -35,6 +39,21 @@ public class HomeFragment extends Fragment{
                 startActivity(intentKroea);
             }
 
+        });
+        btnUSA.setOnClickListener(new View.OnClickListener(){
+
+            @Override
+            public void onClick(View v) {
+                Intent intentUSA=new Intent(getActivity(), USAActivity.class);
+                startActivity(intentUSA);
+            }
+        });
+        btnFrance.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intentFrance=new Intent(getActivity(), FranceActivity.class);
+                startActivity(intentFrance);
+            }
         });
 
         return view;

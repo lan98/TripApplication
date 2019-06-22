@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".USAActivity"></activity>
+        <activity android:name=".FranceActivity"></activity>
+        <activity android:name=".HoustonActivity" />
+        <activity android:name=".ChicagoActivity" />
+        <activity android:name=".LAActivity" />
+        <activity android:name=".NYActivity" />
+        <activity android:name=".USAActivity" />
         <activity android:name=".DaeguActivity" />
         <activity android:name=".InchonActivity" />
         <activity android:name=".BusanActivity" />
