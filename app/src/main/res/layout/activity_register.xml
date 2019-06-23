@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/Register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/Register"
+        android:textColor="#212121"
+        android:textSize="50sp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/User"
+            android:layout_width="91dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:text="@string/ab"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="318dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40sp"
+            android:inputType="text"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/User2"
+            android:layout_width="91dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:text="@string/name"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/name2"
+            android:layout_width="318dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40sp"
+            android:autofillHints="@string/name"
+            android:inputType="phone"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/Password2"
+            android:layout_width="91dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:text="@string/password"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/password2"
+            android:layout_width="318dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40sp"
+            android:autofillHints="@string/password"
+            android:inputType="textMultiLine|textPassword"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/yes2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/yes2"
+        android:layout_marginTop="250sp"
+        android:layout_marginLeft="100sp"
+        android:layout_marginRight="100sp"
+        android:background="#ffd600"
+        android:textColor="#212121"
+        android:textSize="40sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

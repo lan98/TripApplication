@@ -15,6 +15,7 @@ public class HomeFragment extends Fragment{
     private Button btnUSA;
     private Button btnFrance;
     private Button btnUK;
+    private Button btnJapan;
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.frame_home, container);
@@ -23,6 +24,7 @@ public class HomeFragment extends Fragment{
         btnUSA =(Button)view.findViewById(R.id.btnUSA);
         btnFrance =(Button)view.findViewById(R.id.btnFrance);
         btnUK = (Button)view.findViewById(R.id.btnUK );
+        btnJapan = (Button)view.findViewById(R.id.btnJapan);
         btnChina.setOnClickListener(new View.OnClickListener(){
 
             @Override
@@ -64,6 +66,13 @@ public class HomeFragment extends Fragment{
                 startActivity(intentUK);
             }
         }) ;
+        btnJapan.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intentJapan=new Intent(getActivity(), JapanActivity.class);
+                startActivity(intentJapan);
+            }
+        });
 
         return view;
 

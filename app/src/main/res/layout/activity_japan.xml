@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".JapanActivity">
+
+    <TextView
+        android:textSize="30sp"
+        android:id="@+id/Enter_Japan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lable_click" />
+
+    <Button
+        android:id="@+id/Tokyo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="openTokyo"
+        android:text="@string/lable21"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/Hiroshima"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="openHiroshima"
+        android:text="@string/lable22"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/Nagoya"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="openNagoya"
+        android:text="@string/lable23"
+        android:textSize="25sp" />
+
+</LinearLayout>

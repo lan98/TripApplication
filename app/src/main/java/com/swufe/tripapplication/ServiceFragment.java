@@ -19,6 +19,6 @@ public class ServiceFragment extends Fragment {
     public void onActivityCreated(Bundle savedInstanceState){
         super.onActivityCreated(savedInstanceState);
         TextView tv = (TextView)getView().findViewById(R.id.serviceTextView1);
-        tv.setText("这是功能页面！");
+        TextView tv1 = (TextView)getView().findViewById(R.id.service);
     }
 }

@@ -19,6 +19,6 @@ public class HelpFragment extends Fragment {
     public void onActivityCreated(Bundle savedInstanceState){
         super.onActivityCreated(savedInstanceState);
         TextView tv = (TextView)getView().findViewById(R.id.helpTextView1);
-        tv.setText("这是帮助页面！");
+        TextView tv1 = (TextView)getView().findViewById(R.id.help);
     }
 }

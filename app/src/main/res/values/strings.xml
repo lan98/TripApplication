@@ -2,117 +2,26 @@
     <string name="app_name">TripApplication</string>
     <string name="ZL">Welcome to ZL Travel Agency!</string>
     <string name="click1"><![CDATA[Click to enter -->]]></string>
-    <string name="click2">About US</string>
+    <string name="click2">关于我们</string>
     <string name="title_activity_scrolling_aboutus">ScrollingActivity_aboutus</string>
-    <string name="large_text">
-        "Material is the metaphor.\n\n"
 
-        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
-        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
-        "technologically advanced and open to imagination and magic.\n"
-        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
-        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
-        "flexibility of the material creates new affordances that supercede those in the physical "
-        "world, without breaking the rules of physics.\n"
-        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
-        "interact, and exist in space and in relation to each other. Realistic lighting shows "
-        "seams, divides space, and indicates moving parts.\n\n"
-
-        "Bold, graphic, intentional.\n\n"
-
-        "The foundational elements of print based design typography, grids, space, scale, color, "
-        "and use of imagery guide visual treatments. These elements do far more than please the "
-        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
-        "imagery, large scale typography, and intentional white space create a bold and graphic "
-        "interface that immerse the user in the experience.\n"
-        "An emphasis on user actions makes core functionality immediately apparent and provides "
-        "waypoints for the user.\n\n"
-
-        "Motion provides meaning.\n\n"
-
-        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
-        "inflection points that initiate motion, transforming the whole design.\n"
-        "All action takes place in a single environment. Objects are presented to the user without "
-        "breaking the continuity of experience even as they transform and reorganize.\n"
-        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
-        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
-
-        "3D world.\n\n"
-
-        "The material environment is a 3D space, which means all objects have x, y, and z "
-        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
-        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
-        "position along the z-axis and has a standard 1dp thickness.\n"
-        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
-        "emulated by manipulating the y-axis.\n\n"
-
-        "Light and shadow.\n\n"
-
-        "Within the material environment, virtual lights illuminate the scene. Key lights create "
-        "directional shadows, while ambient light creates soft shadows from all angles.\n"
-        "Shadows in the material environment are cast by these two light sources. In Android "
-        "development, shadows occur when light sources are blocked by sheets of material at "
-        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
-        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
-
-        "Resting elevation.\n\n"
-
-        "All material objects, regardless of size, have a resting elevation, or default elevation "
-        "that does not change. If an object changes elevation, it should return to its resting "
-        "elevation as soon as possible.\n\n"
-
-        "Component elevations.\n\n"
-
-        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
-        "does not vary from 6dp in one app to 16dp in another app).\n"
-        "Components may have different resting elevations across platforms, depending on the depth "
-        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
-
-        "Responsive elevation and dynamic elevation offsets.\n\n"
-
-        "Some component types have responsive elevation, meaning they change elevation in response "
-        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
-        "changes are consistently implemented using dynamic elevation offsets.\n"
-        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
-        "to the component’s resting state. They ensure that elevation changes are consistent "
-        "across actions and component types. For example, all components that lift on press have "
-        "the same elevation change relative to their resting elevation.\n"
-        "Once the input event is completed or cancelled, the component will return to its resting "
-        "elevation.\n\n"
-
-        "Avoiding elevation interference.\n\n"
-
-        "Components with responsive elevations may encounter other components as they move between "
-        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
-        "through other material, components avoid interfering with one another any number of ways, "
-        "whether on a per component basis or using the entire app layout.\n"
-        "On a component level, components can move or be removed before they cause interference. "
-        "For example, a floating action button (FAB) can disappear or move off screen before a "
-        "user picks up a card, or it can move if a snackbar appears.\n"
-        "On the layout level, design your app layout to minimize opportunities for interference. "
-        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
-        "when a user tries to pick up one of cards.\n\n"
-    </string>
     <string name="action_settings">Settings</string>
     <string name="About_us" />
-    <string name="content">ZL Travel Agency is a new company which committing to providing customers with a better travel experice.
-        Our object is providing careful travel planning, customers can choose suitable and favorite tourist attractions according to our introduction of various famous tourist attractions.
-        We will introduce the unique features of each scenic spot according to the actual situation, as well as the surrounding environment, including accommodation, food and so on.
-        We will also attach pictures of each scenic spot for you to choose from. We hope you can choose our service, we will let you have a perfect trip.
+    <string name="content">ZL旅行社是一家致力于为客户提供更好旅游体验的新公司。我们的目标是提供精心的旅游规划，客户可以根据我们对各种著名旅游景点的介绍，选择适合自己喜欢的旅游景点。我们将根据实际情况，结合周边环境，包括住宿、饮食等，介绍各景区的特色。我们还会附上各景点的图片供您选择。我们希望您能选择我们的服务，我们会让您有一个完美的旅程。
     </string>
     <string name="rdo_home_lable">首页</string>
     <string name="rdo_service_lable">服务</string>
     <string name="rdo_help_lable">帮助</string>
-    <string name="lable_home">Country and region</string>
-    <string name="lable_China">1.China</string>
-    <string name="lable_South_Kroea">2.South Kroea</string>
+    <string name="lable_home">国家和地区</string>
+    <string name="lable_China">1.中国</string>
+    <string name="lable_South_Kroea">2.韩国</string>
     <string name="lable_USA">The United State</string>
-    <string name="lable_France">4.France</string>
-    <string name="lable_USA2">3.The United States</string>
-    <string name="lable_UK">5.The United Kindom</string>
-    <string name="lable_Japan">6.Japan</string>
-    <string name="lable_India">7.India</string>
-    <string name="lable_Australia">8.Australia</string>
+    <string name="lable_France">4.法国</string>
+    <string name="lable_USA2">3.美国</string>
+    <string name="lable_UK">5.英国</string>
+    <string name="lable_Japan">6.日本</string>
+    <string name="lable_India">7.印度</string>
+    <string name="lable_Australia">8.澳大利亚</string>
     <string-array name="China">
         <item>Beijing</item>
         <item>Shanghai</item>
@@ -171,106 +80,131 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="Beijing1">Beijing, hereinafter referred to as \"jing\", is a provincial-level administrative region of the People\'s Republic of China, the capital, and municipalities directly under the central government, national center city, very large cities, the national political center, cultural center and international communication center, science and technology innovation center, is the world famous ancient capital and modern international city, is the central committee of the communist party of China, the central people\'s government of the People\'s Republic of China and the National People\'s Congress standing committee\'s office is located.Beijing is located in north China, with its center at 116°20 \'east longitude and 39°56\' north latitude. It adjoins tianjin in the east and hebei in the rest. The total area of Beijing is 16,410.54 square kilometers.Beijing terrain northwest high, southeast low. Mountains surround the west, north and northeast, and the southeast is a plain that slopes gently toward the bohai sea. The main rivers flowing through the territory are yongding river, chaobai river, north canal, and tuma river, etc. Most of them originate from the mountains in the northwest, run through the mountains, wind through the plain areas in the southeast, and finally merge into the bohai sea respectively. Beijing has a typical warm temperate semi-humid continental monsoon climate, with high temperature and rainy summer, cold and dry winter and short spring and autumn.</string>
-    <string name="Tiananmen">Tian \'anmen, the largest urban center square in the world, is the symbol of Beijing and even the whole China. Everyone in China must have \"witnessed\" its glory, but it is still exciting to be in it. Tian \'anmen rostrum is located in the north end of the square, the five-star red flag flying high above the square; The monument to the people\'s heroes stands in the middle of the square; The great hall of the people and the national museum of China are on opposite sides of the square. Chairman MAO memorial hall and zhengyang gate tower stand in the south of the square. Tian \'anmen square is a must-see place for almost all tourists, as well as a place for Beijing residents to relax. Skateboarding teenagers are often seen here, and kite dancing (especially in spring and autumn) is also a big sight. On major festivals, the square may hold rallies, set off fireworks, display flower beds or parade.</string>
-    <string name="Changcheng">The Great Wall, stretching thousands of miles from east to west; It has been built for more than 2,000 years. By climbing, partial to the cliff to nowhere, we can see the construction of its strange hardships. Its magnificent charm, aesthetic value, defensive function and military strategy are rare in the cultural legacy of the world. It is the miracle of the world, is a great miracle, because it is deeply admired and admired by the people of all countries. Standing on the Great Wall, whether it is spring flowers, autumn moon, summer clouds and winter snow, or see the Great Wall inside and outside the vast mountains, even the decline of the day grass, there is a strong sense of nostalgia. Perhaps, we have forgotten the ancient battlefield flying hu jia jige drum, flashing sword, but we will not forget in the last two thousand years to build thousands of ancestors of the Great Wall. Their amazing intelligence, incredible perseverance and amazing creativity not only shocked us, but also inspired us.</string>
-    <string name="Gugong">Beijing Palace Museum is the imperial palace of Ming and qing dynasties in China, formerly known as the Forbidden City, located in the center of the central axis of Beijing, is the essence of ancient Chinese palace architecture. Beijing Palace Museum to three main halls as the center, covers an area of 720,000 square meters, the construction area of about 150,000 square meters, there are more than 70 large and small palaces, more than 9,000 houses. It is one of the largest and most complete ancient wooden structures in the world.The Forbidden City in Beijing began construction in the fourth year of yongle (1406), based on the nanjing Palace Museum, until the 18th year of yongle (1420). It is a rectangular city, north and south 961 meters long, east and west 753 meters wide, surrounded by 10 meters high wall, outside there is 52 meters wide moat. The buildings inside the Forbidden City are divided into two parts: the outer court and the inner court. The center of the outer dynasty was the hall of supreme harmony, the hall of zhonghe and the hall of baohe, collectively known as the three main halls, where the state held a great ceremony. The center of the inner court is the dry qing palace, the house of Thailand, the palace of earthly tranquility, collectively known as the rear three palace, is the emperor and queen living in the palace.</string>
-    <string name="Yiheyuan">The Summer Palace, formerly known as the garden of clear ripples, is located in the western outskirts of Beijing. It is based on kunming lake, wanshou mountain as the site, to the west lake in hangzhou as the blueprint, from the jiangnan garden design techniques and built a large landscape garden, is also the most complete preservation of a royal palace garden, known as the \"royal garden museum\", is also a national key tourist attractions.Before emperor qianlong of the qing dynasty took over the throne, four large imperial gardens were built in the western suburbs of Beijing. In the 15th year of qianlong\'s reign (1750), emperor qianlong used 4.48 million taillons of silver to change it into a garden of clear ripples, which formed a royal garden area of 20 kilometers from present qinghua garden to fragrant hill. In the tenth year of xianfeng (1860), qingyi garden was burned down by the anglo-french allied forces. Guangxu 14 years (1888) reconstruction, renamed the Summer Palace, as summer recreation. Guangxu twenty-sixth year (1900), the Summer Palace was destroyed by the \"eight allied forces\", the treasures were looted. After the fall of the qing dynasty, the Summer Palace was destroyed again during the period of warlord warfare and kuomintang rule.</string>
-    <string name="lable_click">please select the city you want:</string>
-    <string name="lable_Tiananmen">Tiananmen</string>
-    <string name="lable_changcheng">The Great Wall</string>
-    <string name="lable_huhong">Beijing Palace Museum</string>
-    <string name="lable_yiheyuan">The Summer Palace</string>
-    <string name="lable1">Beijing</string>
-    <string name="lable2">Shanghai</string>
-    <string name="lable3">Chengdu</string>
-    <string name="lable4">Hong Kong</string>
-    <string name="lable5">Taiwan</string>
-    <string name="btnChina">China</string>
-    <string name="btnKroea">Kroea</string>
-    <string name="btnUSA">USA</string>
-    <string name="btnFrance">France</string>
-    <string name="btnUK">UK</string>
-    <string name="btnJapan">Japan</string>
-    <string name="btnIndia">India</string>
-    <string name="btnAustralia">Australia</string>
-    <string name="Shanghai1">Shanghai, the largest city in China and one of the municipalities directly under the central government of the People\'s Republic of China, is the national center of China and a prosperous international metropolis. It is located at the mouth of the Yangtze river, facing the east China sea, facing kyushu island of Japan, facing hangzhou bay in the south, and facing jiangsu and zhejiang provinces in the west. Shanghai has a subtropical humid monsoon climate with four distinct seasons. January is the coldest month with an average temperature of 4.9℃, while July is usually the hottest month with an average temperature of 30.9℃. Shanghai has a profound modern urban culture and numerous historical sites. The traditional culture of wu and yue in the south of the Yangtze river has merged with the diverse culture brought by immigrants from all over the country, forming a unique Shanghai culture.Shanghai is a national famous historical and cultural city, with 19 national key cultural relic protection units, 136 Shanghai cultural relic protection units and 4 city-level historic and cultural towns in Shanghai.</string>
-    <string name="zhonggongyidahuizhi">The first national congress of the communist party of China (CPC) is the birthplace of the CPC. The meeting site is located at 76 xingye road (no. 106 wangzhi road), Shanghai. It is an old shikumen residential building with brick and wood structure at the bottom and the first floor along the street. The site of the CPC national congress was listed by the state council as one of the first batch of national key cultural relics under protection and a national patriotism education demonstration base. In September 2016, it was included in the \"first batch of China\'s 20th century architectural heritage\" list.</string>
-    <string name="chenghuangmiao">Shanghai chenghuang Temple (the City God Temple of Shanghai), its history dates back over 600 years, starting from the Ming dynasty was built to contemporary through vicissitudes of life, Shanghai chenghuang Temple has become Shanghai\'s famous tourist attractions, as a Taoist Temple, Shanghai chenghuang Temple has a long history and enjoys a high reputation both at home and abroad, with the development of the economy, has become the Shanghai on the above, small snacks chenghuang Temple Taoist Temple, the City God Temple, yuyuan garden ring around, present a Shanghai chenghuang Temple culture.Cheng huang, also known as cheng huang god, was one of the important gods worshiping in ancient Chinese religious culture. Most of the gods were famous ministers and heroes who had made contributions to the local people.</string>
-    <string name="daguanyuan">Shanghai grand view garden is located at no. 701, qingshang road, qingpu district, Shanghai. It is located at the west side of dianshan lake, 65 kilometers away from Shanghai urban area. Originally named dianshan lake scenic area, it was renamed Shanghai grand view garden in 1991, covering an area of 1500 mu. It is the key unit of Shanghai spiritual civilization construction, and after repeated renovation and expansion, it is a comprehensive amusement park integrating sightseeing, tourism and leisure.Shanghai grand view garden is a large-scale archaized garden designed according to the description of Chinese qing dynasty classic dream of red mansions. The garden complex is planned and designed by liang yousong, Shanghai garden courtyard. The overall layout takes the grand view building as the main body, from \"the provincial relatives villa\" the stone archway, the stone lantern, qinfang lake, the body ren mu DE, the winding path leads to you, the palace gate, \"the too empty illusion\" the relief screen wall, the wooden archway and so on forms the whole garden central axis. In the west, there are yihong courtyard, loncui nunnery, pear fragrant courtyard and marble fang. In the east, there are more than 20 groups of architectural scenic spots such as xiaoxiang pavilion, heng wu hospital, polygonum wind house and daoxiang village.</string>
-    <string name="yuyuan">Yu Garden is located in the northeast of the old city of Shanghai, with fuyou road in the north, anren street in the east and old town god\'s temple in the southwest.In the garden, there are three famous stone known as the jade linglong, in the south of the Yangtze river, the command post of the small sword uprising in 1853 point spring hall, the side of the garden has the town god\'s temple and shop street and other tourist attractions.Yuyuan garden was opened to the public in 1961 and was listed by the state council as a national key cultural relic protection unit in 1982.</string>
-    <string name="chengdu_introduce">Chengdu, a prefecture-level city under the jurisdiction of sichuan province, rong for short, nicknamed \"rong city, jincheng\", is the capital of sichuan province, vice provincial city, mega city, western war zone organ resident, the state council identified as an important high-tech industrial base, business and logistics center and comprehensive transportation hub, is an important central city in the western region. In 2018, the city has jurisdiction over 20 districts (cities) and counties, high-tech zone and chengdu direct administrative zone of tianfu new zone, covering an area of 14,335 square kilometers, with a permanent population of 16.33 million and a GDP of 1,534.277 billion yuan.</string>
-    <string name="dujiangyan">Dujiangyan is located in guankou town, dujiangyan city, chengdu city. It is a large-scale water conservancy project built in ancient China and still in use today. It is known as \"the originator of world water conservancy culture\" and is a famous tourist resort in China. Dujiangyan water conservancy project was built by li bing, governor of shu county of the state of qin and his sons in the 59th year (256 years before) of king zhou. It is the oldest and only water conservancy project in the world characterized by no dam to divert water. It is also a world cultural heritage.</string>
-    <string name="daxiongmaojidi">Chengdu research base of giant panda breeding is one of the main research bases for the Chinese government to carry out the relocation protection project of giant pandas and other endangered wild animals. It is a famous research institution in China and even the world for the protection and research of rare and endangered wild animals, including the giant panda, which integrates the research and breeding of giant pandas, conservation education, education and tourism, and the construction of panda culture.</string>
-    <string name="wuhouci">Wuhou temple museum is a famous cultural shrine of The Three Kingdoms at home and abroad. Wuhou temple is the most famous monument of zhuge liang and liu bei and the only emperor and minister worship temple in China. It is also the most influential relic museum of The Three Kingdoms in China. Wuhou temple was built in 223 years, mainly composed of huiling temple, zhaolei temple of han dynasty and wuhou temple. It is one of the first batch of national key cultural relics protection units with ancient and elegant environment and magnificent temple.</string>
-    <string name="dufucaotang">Du fu cottage is the former residence of du fu, a tang dynasty poet in chengdu. The poet du fu moved to chengdu in 759 and spent three years and nine months writing more than 240 poems here. The main buildings are grand palace, poetry hall, chaimen, gongbu temple and shaoling cottage. The cottage museum collects more than 30,000 volumes of historical materials and more than 2,000 cultural relics, which are valuable materials for studying du fu, the \"master of poetry\". Du fu cottage is the first batch of national key cultural relics protection units.</string>
-    <string name="HKintroduce">Hong Kong (Hong Kong), hereinafter referred to as \"Hong Kong\" (HK), the full name of the Hong Kong special administrative region of the People\'s Republic of China, is located in the south of China, the east of pearl river mouth, macau, China and the west across the sea, north and neighbouring shenzhen, zhuhai wanshan islands in the south, an area including Hong Kong island, Kowloon, New Territories, and around 262 islands, total land area of 1106.34 square kilometers, sea area of 1648.69 square kilometers. By the end of 2018, the total population was about 7.4825 million, making it one of the regions with the highest population density in the world and the highest life expectancy in the world.</string>
-    <string name="weiduoliya">Victoria harbour, or Victoria harbour for short, is the harbour between Hong Kong island and Kowloon Peninsula in the Hong Kong special administrative region. Hong Kong is known as the \"pearl of the Orient\", \"three of the world\'s best natural harbors\" and \"three of the world\'s best night spots\" due to its wide width and deep water. The name of Victoria harbor comes from queen Victoria of England. Free access throughout the year. In his early years, he was regarded by the British as having the potential to become an excellent port in east Asia. Later, he won Hong Kong from the qing government and developed the maritime trade in the far east. Victoria harbour has always influenced the history and culture of Hong Kong and dominated the development of Hong Kong\'s economy and tourism. It is one of the keys for Hong Kong to become an international metropolis.</string>
-    <string name="dishini">Hong Kong Disneyland is located in lantau island, New Territories, Hong Kong is the world\'s smallest Disneyland, is also China\'s first Disneyland, theme park is divided into seven park, respectively: main street USA, adventureland, fantasyland and tomorrowland, toy story stronghold, grizzly bear valley and blurred manor, the grizzlies valley and blurred manor is unique in the world, full of fantasy, Hong Kong Disneyland theme song \"let the magic fly\" by the honorary ambassador to Disney Hong Kong singer Jacky cheung, brisk melody, you can feel full of happiness from the music.</string>
-    <string name="sea_park">Hong Kong Ocean Park, with its Marine aquarium and theme park, is the favorite place for visitors to Hong Kong. Here you can not only see interesting amusement park, dolphin show, but also a variety of strange Marine fish, towering ocean skyscraper tower, more exciting over the mine flying car, speed trip, can be called the perfect combination of science, tourism, entertainment.</string>
-    <string name="taiwan">Alishan, Sun Moon Lake, taroko gorge, jade mountain, kenting, yangming mountain are all famous natural tourist attractions in Taiwan. Jiufen old street, ruifang district, xinbei city, beitou district, Taipei city, lugang town, changhua county, yingge district, xinbei city, etc. The territory has many characteristics of hot springs, hot spring culture unique.</string>
-    <string name="alishan">The sunrise, sea of clouds, sunset, forest and alpine railway of alishan are collectively known as the five wonders of alishan. Alishan railway has a history of more than 70 years and is one of the only three remaining alpine railways in the world. In particular, the zigzag climb around the third helix and the first lane is an unforgettable experience. Zhushan is the best place to watch the sunrise. To zhushan, you can take the train or follow the steps from the flagstone road next to the telecom office.</string>
-    <string name="riyuetan">Sun Moon Lake is the most famous scenic spot on Taiwan island. Located in nantou county in the west, it is the second largest and largest natural lake in Taiwan province, lying on the top of the mountains between mt. Jade and mt. Ali. Shore perimeter 35 kilometers, covers an area of 7.7 ㎞ squared, water depth and 30 metres. The water surface is slightly larger than the famous west lake in hangzhou, but the water depth is more than 10 times that of the west lake. The Sun Moon Lake was originally two separate lakes, but was dammed downstream to generate electricity. As the water level rose, the two lakes became one.</string>
-    <string name="seoulintroduce">Seoul was the capital of the Korean dynasty for 600 years and has many historical sites. The palaces, jongmyong temples and other buildings of the Korean period were jingfu palace, changde palace, myung court, changgyeong palace, gyeonghee palace, deshou palace, yunhyeon palace, jongmyong temple, sheji palace, sungyeon hall, namdaemun gate, dongdaemun gate, Seoul city wall, south han mountain city, north han mountain city, zhenling tomb, hongling tomb, xuanjing tomb, xianren tomb, taikang tomb and so on. Other historical sites include tucheng of dream village, fengna tucheng, saga mountain city, tomb of six dead ministers, bong en temple, bong yuan temple, cao xi temple -- presidential residence of South Korea -- blue house, independent gate, Ming dong tian cathedral, etc.</string>
-    <string name="jingfugong">Gyeongbuk palace is the palace of the joseon dynasty (1392~1910) in Seoul, South Korea. It is also the official palace of the joseon dynasty. It is the palace of the new dynasty built during the joseon dynasty\'s migration and has a history of 500 years. In the book of songs in ancient China, there was a poem called \"junzi wannian, jie er jingfu\". This hall is named because it is located in the north of Seoul, also known as \"beique\". Gyeongbok palace is one of the largest and oldest palaces in Seoul and the political center of the late feudal society in South Korea.</string>
-    <string name="litaiyuan">Litawon street, located in the lung mountain district of Seoul, is the most exotic place in Seoul, where you can experience and understand the comprehensive culture through food, entertainment and shopping. Shopping street pear Thai courtyard\'s international visibility is how high, from this \"do not know Seoul is not strange, do not know pear Thai courtyard is strange\" the saying, we can be clear. Usually referred to as the 1.4-kilometre-long section from the 1st hole to the 2nd hole in the hannan river, it is not only home to numerous shops, but also a variety of entertainment facilities and gourmet restaurants. One of the main features of the street is the widespread use of English. Not only are koreans walking along the road talking with foreigners in English, but the signs of shops along the road are marked in English.</string>
-    <string name="lable21">Seoul</string>
-    <string name="lable22">Busan</string>
-    <string name="lable23">inchon</string>
-    <string name="lable24">daegu</string>
-    <string name="fushan">Busan tourism roughly divided into coastal tourism and inland tourism two parts. Coastal tourism mainly refers to bathing beaches, islands, Marine parks, etc., while inland tourism refers to busan city, historical sites, jinjing mountain city, Vatican temple, donglai township school, dongsan hole shell mound, busan World Cup stadium, BEXCO, etc. There are sea beach yuntai sea beach, guanganli sea beach, songting sea beach and so on. In addition, busan Marine natural history museum, fuquan museum, busan municipal art museum and fusan museum and other cultural sites.</string>
-    <string name="weishanyan">Ulsan rock consists of six granite peaks, with a circumference of 4 kilometers. Climb ulsan rock, you can see the snow yue mountain scenery and the east China sea, damo peak, hexaping reservoir area. There are three legends about the origin of the name of ulsan rock: first, it is called \"ulsan\" (south Korean grammar is similar) because of the emergence of the fence road; second, it is taken from the place name of ulsan in gyeongsang south; and third, it is said that \"crying mountain\" is translated into Chinese in Korean.</string>
-    <string name="longtoushangongyuan">Longtoushan, also known as \"dragon head rock\", the mountain is shaped like a cloud-driven dragon flying into the air from the sea, as the name suggests, it is called \"longtoushan\". Here can enjoy the beautiful seascape and the surrounding beautiful scenery, in the sunset afterglow, appears to have the emotional appeal all the more. In the park, a representative building busan tower is built, which symbolizes the long and long history and culture of busan.</string>
-    <string name="inchonintroduce">As a port city with the ocean, incheon has many famous Marine scenic spots. Located in the qianhai of incheon, wuyi island and ishi wei island are the shooting places of classic Korean dramas such as stairway to heaven, sad love song, and ishi wei island. They are also famous islands frequented by tourists. The cultural street on yuewei island, north cheng dong, central district is also one of the famous scenic spots</string>
-    <string name="yueweidao">Yuemei island was once an island about 1 km away from the incheon qianhai before gradually connecting with the land in the process of road building. The moon tail island gets its name from the shape of the half-moon tail island. Yuemei island, not far from Seoul, has convenient transportation and is often visited by tourists on weekends. Yuemei island has cafes, sashimi shops, restaurants and so on. Enjoying the beautiful scenery of the western sea and savoring delicious food is a real treat. There are more than 50 sashimi shops on the island, which carefully prepare delicious seafood for tourists. In addition, the culture street with a length of 1200 meters extends all the way from graffiti pillars, meeting places, art fields and public performances. Here, public performances follow, and street painters improvise for visitors. Yuemei island must go to the amusement park. While not comparable to other large-scale theme parks, amusement parks are known for their Apollo disco and pirate ships. Exciting pirate ships attract tourists from all over the country, and Apollo disco even just to see people feel endless fun. From yuemei island you can also take a cruise around the beautiful scenery. Cool sea breeze, clear western sea water, and hovering over the seagull, all let a person intoxicated.</string>
-    <string name="chuandengsi">Lantern temple is located in dingu mountain, is a thousand years old temple. According to legend, it was built by a monk in the koguryo period, and was named as the lantern temple after the jade lanterns were donated to Buddha by the zhen and princess of the Korean king of the faithful (1274-1308). There are many things worth seeing in chuandeng temple, such as daxiong temple (no. 178 protected cultural relic) and yaoshi temple (no. 179 protected cultural relic). In particular, there are strange statues in the main hall that cannot be seen in other temples, namely, the naked woman under the eaves and the figures on the pillars. The roof is \"well algae\" style, surrounded by colorful sculptures and lotus flowers, flying apsaras and other patterns. In the courtyard of the mountain temple, there is a Vatican bell of the song dynasty, 1.6 meters high and 1 meter in diameter. The lantern temple is not only beautiful in itself, but also famous for its surrounding landscape. Especially in the early morning and evening to view the sea, the scenery is very spectacular. Lantern temple is famous in Korea for watching sunsets. There is also a bamboo garden where you can take a rest.</string>
-    <string name="daegu">Daegu is the fourth largest city in South Korea after Seoul, busan and incheon. Shopping and cultural arts, food shops and other modern charm and long historical sites coexist, can be a multi-cultural experience of the city - daegu.You can enjoy a variety of dynamic Tours here, such as sightseeing of famous products, visiting of delicious food and self-cultivation experience.</string>
-    <string name="bagongshan">Badong mountain is a peak from the center of daegu area to yongchuan city, junwei county, etc. The mountain is not very high. The distance from the entrance of the hiking trail to the seated statue of guofeng stone Buddha at the top of shamaoyan mountain is 2.1km. It is entered from the left side of the entrance of guanyan temple (zhongge). Badong mountain is also one of the centers of buddhist culture, including tonghua temple, yuguanfeng stone Buddha statue, yuanxiao temple, qiansheng temple, buddhist grottoes temple and other numerous temples and buddhist cultural relics. The scenery of the badong mountain is pleasant and beautiful. Here cuckoos are in full bloom in spring, trees are green in summer, mountains are full of maple in autumn, and snow and ice are crystal clear in winter.</string>
-    <string name="yiyao">The museum is located in daegu yaling, which was opened in 1993. It is a comprehensive cultural space + museum. It tells the history of daegu yaling and some knowledge of Korean medicinal materials. Most guides and electronic presentations are in four languages (including Chinese). Here you can not only take photos in person, but also participate in cutting Korean medicinal materials, making Korean aromatic agent, Korean foot soup and other experience projects.</string>
-    <string name="ny0">New York City is home to many world-class galleries and performing arts competitions, making it one of the cultural and entertainment centers of the western hemisphere. New York is also known as \"the city that never sleeps\" because of its 24-hour subway system and its never-ending crowds. New York is an unparalleled entertainment city in the world. Ballet, classical music, opera, large-scale concert, jazz music, swing dance; Plays, movies, cabaret operas, discos, piano performances, you name it, are lively and exciting. It is particularly worth pointing out that all this is world-class. New York\'s romantic nightlife is also worth looking forward to.</string>
-    <string name="ny1">For more than a century, the bronze statue of the goddess of liberty standing on the island of liberty has become a symbol of friendship between the American nation and the French people, forever expressing the lofty ideal of the American people for democracy and freedom. Passengers on ships entering New York harbor can see the statue of liberty standing tall and carrying the liberty torch. For thousands of immigrants to the United States, the statue of liberty was a guarantee of freedom from the poverty and oppression of the old world.</string>
-    <string name="ny2">Manhattan is described as the economic and cultural center of the whole United States. It is home to the central business district of New York City. It has the highest concentration of skyscrapers in the world. Wall Street in Manhattan is the most important financial center in the world, with the New York stock exchange and nasdaq. Manhattan\'s real estate market is also one of the most expensive in the world.</string>
-    <string name="lable31">new york</string>
-    <string name="lable32">los angeles</string>
-    <string name="lable33">chicago</string>
-    <string name="lable34">houston</string>
-    <string name="la0">Los Angeles, located in southwestern California, is the second largest city in the United States and the largest city in the western United States. Los Angeles has an area of about 1,291 square kilometers, and its urban center coordinates are 34°03 \'north latitude and 118°15\' west longitude. The city has a population of about 3,976 million (2016). In 2016, the regional GDP of Los Angeles was $753.1 billion. It is one of the important centers for business, international trade, science, education, entertainment and sports in the United States, and one of the major bases for the petrochemical, Marine, aerospace and electronics industries in the United States.</string>
-    <string name="la1">Hollywood is the world\'s most famous movie, television, entertainment and travel destination, located in the northwest suburbs of Los Angeles, California, USA. First discovered by photographers looking for locations, the site attracted many photographers around the beginning of the 20th century, and has since become a film hub for small companies and independent filmmakers seeking to escape patent control.</string>
-    <string name="la2">Universal studios in cutscenes serve universal studios theme park is famous for Los Angeles, not only have many rides like a movie set again, and an adjunct to the universal studios city walk, all the shops, restaurants, cinemas in bright colours, modelling and lively giant signs to attract tourists, let visitors step into universal studios, immediately enjoy the intense stimulation visual sense. In order to expand the studio, the film giant CarlLaemmle moved his studio from Hollywood to a larger site in 1915. He designed the universal tour, which has been taking tourists around the world for 25 years.</string>
-    <string name="chi0">Chicago is located in the center of the north American continent, with its urban center coordinates of 41°39 \'north latitude and 87°34\' west longitude. It is the largest business center and one of the largest futures markets in the United States, and the number of new enterprises in its metropolitan area has been ranked the first in the United States, ranking as the most balanced economy in the United States. In addition, Chicago also has many world-famous tall buildings, known as the \"hometown of skyscrapers\".</string>
-    <string name="chi1">Chicago grant park is the most important downtown park in Chicago, located between Michigan avenue and lake Michigan. Grant park connects downtown Chicago with lake Michigan, elevating the Chicago skyline and cityscape, and enhancing the leisure function of busy Chicago. It covers an area of 1.29 square kilometers.</string>
-    <string name="chi2">The robey house is a masterpiece of Wright\'s prairie style architecture, described as \"the cornerstone of modern architecture\". Robey\'s house has the qualities of a standard prairie building, and the structure is completely asymmetrical, looking like blocks of all shapes and sizes, yet the overall visual harmony is incredible. There are 174 stained-glass Windows and doors, which you can see in an hour-long group tour.</string>
-    <string name="hou0">Houston is known around the world for its energy (especially oil), aviation industry and canals. The port of Houston is the sixth largest port in the world and the busiest port in the United States. Fortune 500 headquarters is second only to New York City. Houston is home to the Texas medical center, the world\'s largest and most important research and treatment facility. Houston also has the lowest cost of living and home prices of 27 major metropolitan areas with a population of more than 1.7 million. Houston is called a \"global city\" by the globalization and world cities study group and network.</string>
-    <string name="hou1">Located on the edge of Herman park, the miller amphitheater offers high quality free performances or movies every weekend (five, six or three days) from the end of April to the end of November: symphony, ballet, cabaret, jazz, Spanish, etc. The Shakespeare Festival runs from late July to mid-august.</string>
-    <string name="hou2">In the eastern suburb of Houston, outside the entrance of the Houston harbor channel off route 8. In April 1836, general Santa Anna of Mexico pursued the rebels led by Sam Houston, only to be attacked by Sam Houston. Within a few minutes Santa Anna\'s army had surrendered. It wasn\'t a big fight, it was independence for Texas. Next to the old battlefield lies the uss Texas. The ship is the only surviving warship to have fought in the first and second world wars.</string>
-    <string name="lable41">paris</string>
-    <string name="lable42">marseille</string>
-    <string name="lable43">lyon</string>
-    <string name="lable44">nice</string>
-    <string name="paris">Paris is the capital and largest city of the French republic, as well as the political, economic, cultural and commercial center of France. It is one of the five international metropoli in the world (the other four are New York, London, Tokyo and Hong Kong), and is rated as Alpha+ first-tier city by GaWC.</string>
-    <string name="lufugong">The world-famous art palace was first built in the early 12th century for defensive purposes, and has since undergone a series of extensions and renovations to become a magnificent royal palace. Starting in the 16th century, francois I began to collect works of art on a large scale, and successive emperors continued this tradition and enriched the Louvre\'s collection. Today the museum has a collection of 400,000 works of art, including sculpture, painting, fine arts and crafts and seven categories including ancient Oriental, ancient Egypt and ancient Greece and Rome.</string>
-    <string name="shengmuyuan">Notre Dame was built in 1345. Not only is it famous for Hugo\'s novel of the same name, but it is also the oldest and grandest Catholic church in Paris. Notre Dame DE Paris calls it the \"symphony of stones.\" With a history of 200 years, this gothic megachurch is the oldest, largest and most architecturally outstanding Catholic church in Paris. It is also of epoch-making significance in the architectural history of Europe.</string>
-    <string name="aifeier">The Eiffel Tower was built to commemorate the 100th anniversary of the bourgeois revolution in France in 1789 at the time of the sensational international exposition. It was named after gustave Eiffel, the famous French architectural engineer who designed it, and a bronze bust was made for Eiffel under the tower.</string>
-    <string name="kaixuanmen">The arc DE triomphe is located in the center of the place DE gaulle, 50 meters high, is one of the symbols of Paris. Take the arc DE triomphe as the center, extends outward 12 main streets. It was built in 1836 to commemorate the glory and victory of the French army, larger than the arch of Constantine in Rome.</string>
-    <string name="fanersai">Originally a hunting ground for the royal family, Louis xiv began the royal palace (1682) during the French revolution, which is also a must-see for all visitors to Paris, behind which is a huge imperial garden. The palace of Versailles, built by Louis xiv, 20 kilometers west of Paris, is famous for its opulent and imaginative architecture. The total length of the complex is 580 meters, including the palace and castle, gardens, trianon and so on.</string>
-    <string name="ma">Marseille, is the city\'s population was second only to Paris and Lyon, France\'s third-largest city and largest port, the urban population of about 870000, surrounded by limestone hills, beautiful scenery, pleasant climate, the main travel scenic spot has the yves island, Gu Erde Notre Dame, marseille museum, old Hong Kong, Europe and the Mediterranean civilization museum, etc.</string>
-    <string name="yifudao">In dumas\'s novel, \"the count of monte cristo,\" the count of monte cristo is held at Chateau d \'if on the island of yves, which is actually used as a prison for many political prisoners. Tourists holding a novel, while exploring the road described in the book, another taste. Mirabeau, the early leader of the French revolution, was imprisoned here for bad conduct when he was a young man. The island is accessible by boat from the old port.</string>
-    <string name="meishuguan">The marseille museum is displaying eckerd provence works rarely seen in Paris. Such as the plague of marseille, marseille painter monticelli, piche and other people\'s works, impressive. In addition, the exhibition of marseille customs, traditions and folk crafts of the ancient marseille museum is also very interesting. If you go to the marseille historical museum, you can learn about the ancient history of marseille from the birth of marseille in 600 BC to the 4th century, which is very helpful to understand the process of Arab civilization crossing the sea.</string>
-    <string name="lyon">Lyon is a city with a long history of more than 2,000 years. In the 15th century, Lyon became one of the world\'s largest producers of silk products. In the 17th century, it once became the political, economic and cultural center of France. Today it is a university town, an industrial town. Surrounded by mountains, the old city of Lyon has been listed as a UNESCO world heritage site, adding to its mystery.</string>
-    <string name="jiaotang">Located on the west side of downtown Lyon, the church of our lady of fuviers rises above the hill of fuviers. It is often seen as the symbol of Lyon and can be reached by cable car or walked up the steep slope. Built between 1872 and 1896, it has a Roman and Byzantine exterior, ornate windowpanes, mosaics and decorations, and stunning internal mosaics and frescoes. The exterior is a blend of Byzantine and medieval styles, decorated in marble and glass in a rainbow of colors, with exquisite mosaics and murals. On the top of the church of the virgin Mary, which is connected to the right, the statue of Mary stands erect and glittering in the sun. Standing on the platform to the left of the church, you can see the whole city of Lyon.</string>
-    <string name="lianggejuyuan">Located on the east side of the city hall, the national opera house of Lyon was built in 1831 and renovated in 1993 as a modern theatre. Its characteristic glass arch is a six-story semi-cylinder of glass and steel, harmoniously integrated with the old marble opera house, as if it were a vast, extremely modern backdrop that accentuates the sculptures above. At night, the new building lights a red light, affectionately known in Lyon as the \"bread oven,\" and the completion of the six-storey building triples the size of the opera house, which is used for rehearsals and daily rehearsals by entertainers. At the same time, the architects also excavated the ground floor of the opera house and built five other sites serving as the main building.</string>
-    <string name="nice">Nice is a famous tourist and holiday resort in France. The city\'s numerous historical sites, museums, art galleries and amusement venues attract a large number of tourists. Nice has the old city and port in the east and the new city in the west. The city\'s main attractions and sightseeing spot: walking massena plaza, Albert I of the garden, the British seaside boulevard (7 km), the United States coastal avenue, lars cary palace, st. ray para Abbey, sites of ancient Rome\'s Colosseum, marc chagall museum, Matisse museum, Jules, the thunder art museum, the gallery of modern art and archaeological museum, exhibition palace, etc.</string>
-    <string name="nisihu">Famed for its beautiful scenery and mysterious \"monster\" rumours, loch ness in the Scottish highlands is poised to become a UN world heritage site.</string>
-    <string name="lable51">london</string>
-    <string name="lable52">edinburgh</string>
-    <string name="lable53">cardiff</string>
-    <string name="londun">London is the political, economic, cultural, financial center of Britain and a world famous tourist destination, with numerous scenic spots and museums.</string>
-    <string name="londun1">Next to the tower of London is the tower of London, which crosses the iron bridge over the river Thames and is named for its location near the tower of London. Inside the tower, there are stairs, museums, exhibition halls, shops, bars and so on. From the top of the tower, you can enjoy the scenery ten miles up and down the Thames. In the case of mist lock bridge, the landscape is more unique, fog lock tower bridge is one of London\'s attractions.</string>
-    <string name="london2">Big Ben, formerly known as Big Ben, also known as Elizabeth tower, is one of the most iconic buildings in London. One of the most famous gothic buildings in the world, Big Ben is huge and magnificent. Big Ben has been telling the time in the city of London since 1859. It strikes every hour according to GMT.</string>
-    <string name="edinburgh">Edinburgh is like the grand setting of a medieval drama, with minarets, castles, cliffs and classical stone pillars visible. Because of the history of fighting against the threat from England, the people of Edinburgh developed the national character of advocating independence and freedom. The stately Edinburgh castle is a symbol of this character. The Georgian houses, wonderful museums and awe-inspiring castles that line the streets make this Scottish capital one of the best places to see north of hadrian\'s wall. Edinburgh also has a bookish side, with theatres, museums and galleries all over the small city. The famous Edinburgh international art festival brings together top art groups from all over the world, attracting more art lovers than local residents every year. During the neoclassical period, writers, artists and critics gathered in Edinburgh, earning it the reputation of \"Athens to the north\".</string>
-    <string name="chengbao">No visitor to Edinburgh can miss Edinburgh castle as it is perched on top of an extinct volcano\'s granite roof and can be seen from every corner of the city centre. Edinburgh castle became a royal fortress in the 6th century. After the death of queen Margaret in 1093, Edinburgh castle became an important royal residence and center of state administration.</string>
-    <string name="dadao">Royal mile avenue is one of the most famous of Edinburgh area, the main tourist attractions are connected in this article consists of four streets of avenue, from west to east, respectively Castle Hill, Lawnmarket, High Street and Canongate, royal mile road ends Edinburgh Castle and Hollywood Luther palace, respectively, are ever important royal residence in Scotland, that connects two royal mile become a important way of medieval Edinburgh.</string>
-    <string name="cardiff">Cardiff is an important port and industrial and service center in southwest England, and the capital of wales. Located on the north shore of Bristol bay, Taft estuary. The city has a population of 346,100 (2011) and is close to the coalfields of south wales. It was the world\'s largest coal export port at the beginning of the 20th century. Modern streets and buildings coexist with old streets and old churches. There is the national museum, the welsh national museum; There is an air station in the west of the city.</string>
-    <string name="wan">Cardiff\'s parks are world famous, in the scale is not big city, unexpectedly has 1200! And the parks blend well with the downtown business district, so when you\'re in shopping, you\'re probably enjoying the view in one of the parks.</string>
-    <string name="qiuchang">Located in Cardiff, England, the millennium stadium is home to the welsh football team. The millennium stadium was opened in 1999 by the welsh rugby union to host the 1999 rugby World Cup. It cost 126 million pounds and has a capacity of 74,500 spectators.</string>
+    <string name="Beijing1">北京是全球拥有世界遗产（7处）最多的城市，是全球首个拥有世界地质公园的首都城市。北京对外开放的旅游景点达200多处，有世界上最大的皇宫紫禁城、祭天神庙天坛、皇家园林北海公园、颐和园和圆明园，还有八达岭长城、慕田峪长城以及世界上最大的四合院恭王府等名胜古迹。北京市共有文物古迹7309项，99处全国重点文物保护单位（含长城和京杭大运河的北京段）、326处市级文物保护单位、5处国家地质公园、15处国家森林公园。</string>
+    <string name="Tiananmen">天安门，世界上最大的城市中心广场，是北京乃至整个中国的象征。在中国，每个人都必须“亲眼目睹”它的辉煌，但它仍然令人兴奋。天安门城楼位于天安门广场的北端，五星红旗高高飘扬在广场上空;人民英雄纪念碑矗立在广场中央;人民大会堂和中国国家博物馆在广场的两侧。毛主席纪念堂和正阳门塔矗立在广场的南面。天安门广场是几乎所有游客必去的地方，也是北京人放松的地方。这里经常能看到玩滑板的青少年，跳风筝舞(尤其是在春秋两季)也是一大看点。在重大节日，广场可能举行集会，燃放烟花，展示花坛或游行。</string>
+    <string name="Changcheng">万里长城，从东到西绵延数千英里;它已经建了两千多年了。通过攀爬，偏向绝壁而去，我们可以看到它奇特的艰辛构造。它的宏伟魅力、审美价值、防御功能和军事战略，在世界文化遗产中是罕见的。它是世界的奇迹，是一个伟大的奇迹，因为它深受各国人民的钦佩和钦佩。站在长城上，无论是春天的鲜花，秋天的月亮，夏天的云彩和冬天的雪，还是看到万里长城内外的大山，甚至是日渐凋零的小草，都有一种强烈的怀旧之情。也许，我们已经忘记了古老战场上飘扬的胡佳吉格鼓声，闪烁的宝剑，但我们不会忘记在过去的两千年里修筑了千古长城的先人。他们惊人的智慧、惊人的毅力和惊人的创造力不仅震惊了我们，也激励了我们。</string>
+    <string name="Gugong">北京故宫博物院是中国明清两代皇宫，原名紫禁城，位于北京中轴线的中心，是中国古代宫殿建筑的精华。北京故宫以三大殿为中心，占地面积72万平方米，建筑面积约15万平方米，有大小宫殿70多座，房屋9000多间。它是世界上最大、最完整的古代木结构之一。北京故宫始建于永乐四年(1406年)，以南京故宫博物院为基础，至永乐十八年(1420年)。它是一座长方形的城市，南北长961米，东西宽753米，四周有10米高的城墙，城外有52米宽的护城河。故宫内的建筑分为两部分:外院和内院。外朝的中心是太和殿、中和殿和保和殿，统称三大大殿，国家在这里举行盛大的仪式。内院的中心是乾清宫、泰宫、坤宁宫，统称后三宫，是皇帝和王后居住的宫殿中。</string>
+    <string name="Yiheyuan">颐和园，原名清漪园，位于北京西郊。它是基于昆明湖,山)的网站,在杭州西湖为蓝图,从江南园林设计技术,建立了一个大型园林,也是保存最完整的皇家宫殿的花园,被称为\“皇家园林博物馆\”,也是一个国家重点旅游景点。在清朝乾隆皇帝登基之前，北京西郊修建了四大皇家园林。乾隆十五年(1750年)，乾隆皇帝用四百四十八万两白银把它变成了一个碧波荡漾的花园，从现在的清华花园到香山，形成了方圆二十公里的皇家园林。咸丰十年(1860年)，清漪园被英法联军焚毁。光绪十四年(1888年)重建，更名为颐和园，作为避暑娱乐场所。光绪二十六年(1900年)，颐和园被“八国联军”摧毁，宝物被洗劫一空。清朝灭亡后，在军阀混战和国民党统治时期，颐和园再次遭到破坏。</string>
+    <string name="lable_click">请选择你感兴趣的城市：</string>
+    <string name="lable_Tiananmen">天安门</string>
+    <string name="lable_changcheng">长城</string>
+    <string name="lable_huhong">故宫博物院</string>
+    <string name="lable_yiheyuan">颐和园</string>
+    <string name="lable1">北京</string>
+    <string name="lable2">上海</string>
+    <string name="lable3">成都</string>
+    <string name="lable4">香港</string>
+    <string name="lable5">台湾</string>
+    <string name="btnChina">中国</string>
+    <string name="btnKroea">韩国</string>
+    <string name="btnUSA">美国</string>
+    <string name="btnFrance">法国</string>
+    <string name="btnUK">英国</string>
+    <string name="btnJapan">日本</string>
+    <string name="btnIndia">印度</string>
+    <string name="btnAustralia">澳大利亚</string>
+    <string name="Shanghai1">上海是中国最大的城市，是中华人民共和国直辖市之一，是中国的国家中心和繁荣的国际大都市。它位于长江入海口，面朝东海，面朝日本九州岛，南临杭州湾，西临江浙两省。上海属亚热带湿润季风气候，四季分明。1月份是最冷的月份，平均气温4.9℃，而7月份通常是最热的月份，平均气温30.9℃。上海有着深厚的现代城市文化和众多的历史遗迹。江南吴越传统文化与各地移民带来的多元文化融合，形成了独具特色的上海文化。上海是全国历史文化名城，拥有全国重点文物保护单位19个，上海市文物保护单位136个，市级历史文化名城4个。</string>
+    <string name="zhonggongyidahuizhi">中共一大会址是中国共产党的诞生地。会议场地位于兴业路76号上海市王治路106号。石库门旧民居，沿街一层和底层均为砖木结构。中共十七大遗址被国务院列为首批全国重点文物保护单位和全国爱国主义教育示范基地。2016年9月，它被列入“第一批中国20世纪建筑遗产”名录。</string>
+    <string name="chenghuangmiao">上海城隍庙,其历史可以追溯到600多年,从明朝建成通过沧桑,当代上海城隍庙已经成为上海的著名旅游景点,道观,上海城隍庙历史悠久,在国内外享有很高的声誉,随着经济的发展,已成为上海在上面,小零食城隍庙道观,城隍庙,豫园环抱四周，呈现出上海城隍庙文化。成皇，又称成皇神，是中国古代宗教文化中重要的神灵崇拜之一。大多数神都是著名的大臣和英雄，为当地人民做出了贡献。</string>
+    <string name="daguanyuan">上海大观园位于上海青浦区青商公路701号，坐落于淀山湖西侧，距离上海市区65公里，占地135亩，建筑面积约8000平方米。原称淀山湖风景游览区，1991年改称上海大观园，占地也扩大到1500亩，是上海市精神文明建设的重点单位，经过多次的整修扩建，是一个集观光、旅游、休闲的综合性游乐园。上海大观园是根据中国清代名著《红楼梦》的描写设计而成的大型仿古园林。园林建筑群由上海园林院梁友松主持规划设计。总体布局以大观楼为主体，由“省亲别墅”石牌坊、石灯笼、沁芳湖、体仁沐德、曲径通幽、宫门、“太虚幻境”浮雕照壁、木牌坊等形成全园中轴线。西侧设置怡红院、拢翠庵、梨香院、石舫。东侧设置潇湘馆、蘅芜院、蓼风轩、稻香村等20多组建筑景点。</string>
+    <string name="yuyuan">豫园位于上海市老城区东北部，北临福佑路，东临安仁街，西南临老城区天坛。在园林中，有三种著名的石头被称为玉玲珑，在长江以南，指挥所的小剑起义于1853年点春堂，园林的一侧有城隍庙和商业街等旅游景点。豫园1961年对外开放，1982年被国务院列为全国重点文物保护单位。</string>
+    <string name="chengdu_introduce">成都拥有武侯祠、杜甫草堂、永陵、望江楼、青羊宫、文殊院、明蜀王陵、昭觉寺等众多历史名胜古迹和人文景观。成都也是四川大熊猫栖息地，拥有大熊猫基地。</string>
+    <string name="dujiangyan">都江堰位于成都市都江堰市关口镇。它是中国古代的一项大型水利工程，至今仍在使用。它被誉为“世界水利文化的鼻祖”，是中国著名的旅游胜地。都江堰水利工程是秦国蜀县知事李冰和他的儿子在周王五十九年(256年前)修建的。它是世界上最古老也是唯一一个没有水坝引水的水利工程。它也是世界文化遗产。</string>
+    <string name="daxiongmaojidi">成都大熊猫繁育研究基地是中国政府开展大熊猫等濒危野生动物搬迁保护工程的主要研究基地之一。是中国乃至世界著名的大熊猫等珍稀濒危野生动物保护与研究机构，集大熊猫研究与繁育、保护教育、教育旅游、熊猫文化建设于一体。</string>
+    <string name="wuhouci">武侯祠博物馆是国内外著名的三国文化圣地。武侯庙是诸葛亮和刘备最著名的纪念性建筑，也是中国唯一一座皇帝兼大臣拜庙。它也是中国最有影响力的三国文物博物馆。武侯庙始建于223年，主要由会陵寺、汉代昭雷寺和武侯庙组成。是首批国家级重点文物保护单位之一，环境古雅，寺庙宏伟。</string>
+    <string name="dufucaotang">杜甫草堂是唐代诗人杜甫在成都的故居。诗人杜甫于759年移居成都，在这里花了三年零九个月写了240多首诗。主要建筑有大皇宫、诗堂、柴门、工布寺和少陵草堂。村舍博物馆收藏了三万多册历史资料和两千多件文物，是研究“诗圣”杜甫的珍贵资料。杜甫草堂是国家首批重点文物保护单位。</string>
+    <string name="HKintroduce">香港,香港特别行政区的全称中华人民共和国,位于中国的南部,珠江口以东,澳门,中国和西方隔海相望,北和邻近深圳、珠海万山群岛在南方,一个区域包括香港岛、九龙、新界和大约262个岛屿,总土地面积1106.34平方公里,海域面积1648.69平方公里。截至2018年底，全国人口7482.5万人，是世界上人口密度最高、预期寿命最长的地区之一。</string>
+    <string name="weiduoliya">维多利亚港，简称“维多利亚港”，位于香港特别行政区香港岛与九龙半岛之间。香港被誉为“东方明珠”、“世界三大天然良港”和“世界三大最佳夜景”。维多利亚港的名字来自英国维多利亚女王。早年，英国人认为他有潜力成为东亚的一个优秀港口。后来，他从清政府手中夺取了香港，发展了远东的海上贸易。维多利亚港一直影响着香港的历史和文化，主导着香港经济和旅游业的发展。它是香港成为国际大都市的关键之一。</string>
+    <string name="dishini">香港迪士尼乐园位于新界大屿山，是世界上最小的迪士尼乐园，也是中国第一个迪士尼乐园，主题公园分为七个公园，分别为:美国小镇大街,探险世界,幻想世界及明日世界,玩具总动员的大本营,灰熊山谷和模糊的庄园,灰熊山谷和模糊庄园在世界上是独特的,充满幻想,香港迪士尼乐园的主题曲《让魔法飞》的名誉大使迪士尼香港歌手张学友,轻快的旋律,你可以感受到充满幸福的音乐。</string>
+    <string name="sea_park">香港海洋公园拥有海洋水族馆和主题公园，是香港游客最喜爱的地方。在这里你不仅可以看到有趣的游乐园、海豚表演，还可以看到各种奇形怪状的海鱼、高耸的海洋摩天楼，更令人兴奋的是飞越矿山的飞车、高速旅行，堪称科学、旅游、娱乐的完美结合。</string>
+    <string name="taiwan">阿里山、日月潭、太鲁阁、玉山、垦丁、阳明山都是台湾著名的自然旅游景点。九芬老街、瑞芳区、新北市、北投区、台北市、鹿岗镇、彰化县、莺歌区、新北市等。境内温泉有许多特色，温泉文化独具特色。</string>
+    <string name="alishan">阿里山的日出、云海、日落、森林和高山铁路被统称为阿里山五大奇观。阿里山铁路有70多年的历史，是世界上仅存的三条高山铁路之一。特别是绕着第三个螺旋线和第一条车道的曲折爬升，是一次难忘的经历。竹山是看日出最好的地方。到竹山，你可以乘火车或者沿着电信办公室旁边的石板路走。</string>
+    <string name="riyuetan">日月潭是台湾岛最著名的景点。它位于台湾西部的南投县，是台湾第二大也是最大的天然湖泊，位于玉山和阿里山之间的山顶上。海岸周长35公里,占地面积7.7㎞的平方,水深度和30米。湖面略大于杭州著名的西湖，但水深却是西湖的十倍以上。日月潭原本是两个独立的湖泊，但被拦在下游发电。随着水位的上升，这两个湖合二为一。</string>
+    <string name="seoulintroduce">首尔是朝鲜王朝600年间的都城，有众多古迹。朝鲜时代的宫殿、宗庙和其他建筑有景福宫、昌德宫、秘苑、昌庆宫、庆熙宫、德寿宫、云岘宫、宗庙、社稷、成均馆、南大门、东大门、汉城城墙、南汉山城、北汉山城、贞陵、洪陵、宣靖陵、献仁陵、泰康陵等等。其他古迹有梦村土城、风纳土城、嵯峨山城、死六臣墓、奉恩寺、奉元寺、曹溪寺韩国总统官邸—青瓦台、独立门、明洞天主教堂等。</string>
+    <string name="jingfugong">景福宫，是朝鲜半岛历史上最后一个统一王朝——朝鲜王朝（李氏朝鲜）的正宫（法宫）。位于朝鲜王朝国都汉城（今韩国首尔），又因位于城北部，故又称“北阙”，是首尔五大宫之首，朝鲜王朝前期的政治中心。景福宫始建于1395年（太祖洪武二十八年），历经多次破坏和重建。王宫得名于《诗经》中“君子万年，介尔景福”中“景福”二字。王宫面积与规制严格遵循与宗主国中国的宗藩关系，为亲王规制的郡王府，所有建筑均以丹青之色来区别于中国皇宫的黄色。占地面积占地12.6万坪（57.75公顷），呈正方形，南面是正门光化门，东为建春门，西为迎秋门，北为神武门。</string>
+    <string name="litaiyuan">位于首尔龙山区的梨泰院一条街，是首尔市内最具异国风情的地方，在这里饮食、娱乐、购物可以体验和了解综合性的文化。购物街梨泰院的国际知名度有多高，从这句“不知首尔不足为怪，不知梨泰院才是怪”的俗话中，我们就可以清楚了。通常梨泰院指的是，从梨泰院1洞到汉南2洞的长达1.4公里的这段区间，这里不仅有数不胜数的商店，还有丰富多彩的娱乐设施和美食餐厅。这条街的一大特点是英语的普遍使用，不仅路上行走的韩国人也和外国人一起用英语交谈，就连路旁的商店牌子均用英语标出，而且常常可以见到“超大号”“加长加大”等字眼。</string>
+    <string name="lable21">首尔</string>
+    <string name="lable22">釜山</string>
+    <string name="lable23">仁川</string>
+    <string name="lable24">大邱</string>
+    <string name="fushan">釜山旅游大致分为沿海旅游和内陆旅游两部分。滨海旅游主要指海滨浴场、海岛、海岸公园等，而内陆旅游主要指釜山市、名胜古迹、金景山市、梵蒂冈寺、东来乡学校、东三洞贝冢、釜山世界杯体育场、贝科等。有云台海滨浴场、广利海滨浴场、松亭海滨浴场等。此外，釜山海洋自然历史博物馆、福泉博物馆、釜山市立美术馆和福山博物馆等文化遗址。</string>
+    <string name="weishanyan">蔚山岩石由六座花岗岩山峰组成，周长4公里。爬上蔚山岩石，可以看到雪山岳的风光和东海、大磨峰、河坪库区。关于蔚山岩名称的由来有三个传说:一是由于出现了“蔚山”(韩国语法相似);其次，它是从庆尚南部的蔚山地名演变而来的;第三，据说《哭泣的山》在韩语中翻译成中文。</string>
+    <string name="longtoushangongyuan">龙头山，也被称为“龙头岩”，形状像一条云驱动的龙从海上飞向空中，正如它的名字所暗示的，它被称为“龙头山”。这里可以欣赏到美丽的海景和周围美丽的景色，在夕阳的余晖中，显得格外有情调。公园内建有代表性建筑釜山塔，象征着釜山悠久的历史文化。</string>
+    <string name="inchonintroduce">作为一个临海的港口城市，仁川有许多著名的海洋景点。位于仁川前海的武夷山、石尾岛是经典韩剧《天梯》、《悲伤情歌》、《石尾岛》等的拍摄地。它们也是游客经常光顾的著名岛屿。中央城区城东北侧月尾岛文化街也是著名景点之一。</string>
+    <string name="yueweidao">月尾岛上设有咖啡厅、生鱼片店、餐厅等。欣赏着西海美景，品味可口食物该是何等的享受?岛上共有50多家生鱼片店, 精心为游客制作一道道鲜美的海鲜。此外长达1200米的文化街上从涂鸦柱子开始、邂逅场所、艺术场、公演场等一路延伸开去。在这里公演随到即演,街头的画家也即兴为游客作月尾岛画。月尾岛每年都会举行月尾庆典。庆典期间将会开展船歌、假面舞、国乐表演等各种活动，年轻人们可以一起加入到表演的行列中来。</string>
+    <string name="chuandengsi">传灯寺坐落在韩国仁川广域市江华郡江华岛上，是一座见证了从古朝鲜时代至近代历史悲剧的寺院。据说，高句丽小兽林王11年（公元372年）时，阿道和尚用真宗寺这个名字创建了这座寺院，但是缺少确凿的证据，也正是从那时开始，该寺作为护国寺院，见证了历史的痛苦。后来，高丽忠烈王8年（1282年）时，僧侣印奇和尚从宋朝带回了大藏经并保管在此寺院中，忠烈王的妃子贞和给寺院布施了玉灯，传灯寺便因此得名。</string>
+    <string name="daegu">大邱是韩国第四大城市，仅次于首尔、釜山和仁川。购物与文化艺术、食品店等现代魅力与悠久的历史遗迹并存，可以体验多元文化的都市——大邱。您可以在这里享受多种多样的动感之旅，如名品观光、美食观光、修身养性体验等。</string>
+    <string name="bagongshan">八公山一年四季都很美，景色变幻多样，春天杜鹃盛开，夏季林木葱翠，秋天丹枫满山，冬天冰雪晶莹，游客漫步在山间，可边散心边欣赏美妙的自然风景。此外，八公山上的人文气息也很浓厚，自古以来就被称作是一座圣山。早在新罗时代，就在这里展开了祈祷国泰民安的佛教活动，山谷中有桐华寺、把溪寺等拥有千年历史的寺庙以及众多的佛像、塔和磨崖佛，从而使八公山成为韩国著名的佛教文化中心</string>
+    <string name="yiyao">韩医药博物馆位于大邱雅岭，于1993年开放。这是一个综合性的文化空间+博物馆。它讲述了大邱雅陵的历史和一些韩国药材的知识。大多数指南和电子演示文稿都使用四种语言(包括中文)。在这里您不仅可以亲自拍照，还可以参与韩国药材的切割、韩国芳香剂的制作、韩国足汤等体验项目。</string>
+    <string name="ny0">纽约市拥有许多世界级的画廊和表演艺术比赛，使其成为西半球的文化和娱乐中心之一。纽约也被称为“永不眠之城”，因为它的24小时地铁系统和永不停歇的人群。纽约是世界上独一无二的娱乐城市。芭蕾舞、古典音乐、歌剧、大型音乐会、爵士音乐、摇摆舞;戏剧、电影、歌舞歌剧、迪斯科、钢琴表演，凡是你能想到的，都是活泼而刺激的。特别值得指出的是，这一切都是世界级的。纽约浪漫的夜生活也值得期待。</string>
+    <string name="ny1">一个多世纪以来，矗立在自由岛上的自由女神铜像成为了美国民族和法国人民友谊的象征，永远表达着美国人民追求民主和自由的崇高理想。进入纽约港的乘客可以看到自由女神像高高耸立，手持自由火炬。对于成千上万移民到美国的人来说，自由女神像是摆脱旧世界贫困和压迫的保障。</string>
+    <string name="ny2">曼哈顿被描述为整个美国的经济和文化中心。它是纽约市中心商业区的所在地。它拥有世界上最高的摩天大楼。曼哈顿的华尔街是世界上最重要的金融中心，其次是纽约证券交易所和纳斯达克。曼哈顿的房地产市场也是世界上最昂贵的市场之一。</string>
+    <string name="lable31">纽约</string>
+    <string name="lable32">洛杉矶</string>
+    <string name="lable33">芝加哥</string>
+    <string name="lable34">休斯顿</string>
+    <string name="la0">洛杉矶位于加利福尼亚州西南部，是美国第二大城市，也是美国西部最大的城市。2016年，北京人口约为39.76亿。2016年，洛杉矶地区GDP为7531亿美元。它是美国重要的商业、国际贸易、科学、教育、娱乐和体育中心之一，也是美国石化、海洋、航空航天和电子工业的主要基地之一。</string>
+    <string name="la1">好莱坞是世界上最著名的电影、电视、娱乐和旅游目的地，位于美国加州洛杉矶西北郊区。该网站最初是由寻找拍摄地点的摄影师发现的，大约在20世纪初吸引了许多摄影师。自那以来，该网站已成为小公司和寻求摆脱专利控制的独立制片人的电影中心。</string>
+    <string name="la2">环球影城在游戏动画洛杉矶环球影城主题公园而闻名,不仅拥有许多游乐设施又像个电影集,和一个兼职到环球影城城市走,所有的商店、餐馆、电影院在明亮的颜色,造型活泼巨头迹象来吸引游客,让游客进入环球影城,立即享受强烈的视觉刺激。为了扩大工作室，电影巨头卡尔莱姆勒(CarlLaemmle)于1915年将工作室从好莱坞搬到了一个更大的地方。他设计了环球旅游，25年来一直带着游客环游世界。</string>
+    <string name="chi0">芝加哥位于北美大陆的中心，其城市中心坐标为北纬41°39和西经87°34。它是美国最大的商业中心和最大的期货市场之一，其大都市区的新企业数量在美国排名第一，是美国最平衡的经济体。此外，芝加哥还有许多世界闻名的高楼大厦，被称为“摩天大楼之乡”。</string>
+    <string name="chi1">芝加哥格兰特公园是芝加哥最重要的市中心公园，位于密歇根大道和密歇根湖之间。格兰特公园连接芝加哥市中心和密歇根湖，提升了芝加哥的天际线和城市景观，增强了繁忙的芝加哥的休闲功能。国土面积1.29平方公里。</string>
+    <string name="chi2">罗比故居是赖特草原风格建筑的杰作，被誉为“现代建筑的基石”。罗比的房子具有标准草原建筑的特质，结构完全不对称，看起来像各种形状和大小的积木，但整体的视觉和谐令人难以置信。这里有174扇彩色玻璃窗和门，你可以在一个小时的旅行团中看到。</string>
+    <string name="hou0">休斯顿以其能源(尤其是石油)、航空工业和运河闻名于世。休斯敦港是世界第六大港口，也是美国最繁忙的港口。财富500强的总部仅次于纽约市。休斯顿是世界上最大、最重要的研究和治疗机构——德克萨斯医学中心的所在地。休斯顿的生活成本和房价在27个人口超过170万的大城市中也是最低的。休斯顿被全球化和世界城市研究组织和网络称为“全球城市”。</string>
+    <string name="hou1">米勒露天剧场位于赫尔曼公园边缘，从四月底到十一月底，每个周末(五天、六天或三天)提供高质量的免费演出或电影:交响乐、芭蕾舞、歌舞表演、爵士、西班牙语等。莎士比亚戏剧节从7月下旬持续到8月中旬。</string>
+    <string name="hou2">在休斯敦东郊，休斯敦港航道8号公路入口外。1836年4月，墨西哥的桑塔·安娜将军追击萨姆·休斯顿领导的叛军，却遭到萨姆·休斯顿的袭击。几分钟后，圣安娜的军队投降了。这不是一场激烈的战斗，而是德克萨斯的独立。老战场旁边是美国德克萨斯号航空母舰。这艘船是唯一一艘参加过第一次和第二次世界大战的幸存军舰。</string>
+    <string name="lable41">巴黎</string>
+    <string name="lable42">马赛</string>
+    <string name="lable43">里昂</string>
+    <string name="lable44">尼斯</string>
+    <string name="paris">巴黎是法兰西共和国的首都和最大城市，也是法国的政治、经济、文化和商业中心。它是世界五大国际大都市之一(另外四个是纽约、伦敦、东京和香港)，被GaWC评为Alpha+一线城市。</string>
+    <string name="lufugong">举世闻名的艺术宫殿始建于12世纪初，最初是为了防御的目的，后来经过一系列的扩建和翻新，成为一座宏伟的皇宫。从16世纪开始，弗朗索瓦一世开始大规模收集艺术品，历代皇帝延续了这一传统，丰富了卢浮宫的收藏。博物馆现有雕塑、绘画、工艺美术等40万件藏品，包括古东方、古埃及、古希腊、古罗马等七大门类。</string>
+    <string name="shengmuyuan">圣母院建于1345年。它不仅因为雨果的同名小说而闻名，而且还是巴黎最古老、最宏伟的天主教堂。巴黎圣母院称它为“石头的交响乐”。这座哥特式大教堂有200年的历史，是巴黎最古老、最大、建筑最杰出的天主教堂。它在欧洲建筑史上也具有划时代的意义。</string>
+    <string name="aifeier">埃菲尔铁塔是为了纪念1789年法国资产阶级革命100周年而建的，当时正值轰动一时的国际博览会。它以法国著名建筑工程师古斯塔夫·埃菲尔的名字命名，埃菲尔铁塔下还为他制作了一座青铜半身像。</string>
+    <string name="kaixuanmen">凯旋门位于戴高乐广场的中心，高50米，是巴黎的象征之一。以凯旋门为中心，向外延伸12条主要街道。它建于1836年，是为了纪念法国军队的光荣和胜利，比罗马的君士坦丁拱门还要大。</string>
+    <string name="fanersai">凡尔赛宫最初是皇室的狩猎场，在法国大革命期间(1682年)开始建造皇家宫殿，这也是所有游客到巴黎必看的地方，宫殿后面是一个巨大的皇家花园。凡尔赛宫，由路易十四建造，位于巴黎以西20公里，以其华丽和富有想象力的建筑而闻名。总长度为580米，包括宫殿和城堡，花园，特里亚农等。</string>
+    <string name="ma">马赛,是城市人口仅次于巴黎和里昂,法国第三大城市和最大港口,大约有870000的城市人口,石灰岩群山环绕,风景秀丽,气候宜人,最主要的旅游景点有伊夫岛,顾大地之圣母院,马赛博物馆,老香港、欧洲和地中海文明博物馆,等等。</string>
+    <string name="yifudao">在杜马斯的小说《基督山伯爵》中，基督山伯爵被关押在伊芙岛上的城堡里，伊芙岛上实际上是许多政治犯的监狱。游客捧着一本小说，一边探索着书中描述的道路，另一种滋味。.</string>
+    <string name="meishuguan">马赛博物馆正在展出埃克尔德·普罗旺斯在巴黎很少见到的作品。如马赛瘟疫、马赛画家蒙蒂塞利、皮歇等人的作品，令人印象深刻。此外，马赛古博物馆的马赛风情、传统和民间工艺品展览也十分有趣。如果你去马赛历史博物馆，你可以了解到从公元前600年马赛诞生到公元4世纪的马赛古代史，这对于了解阿拉伯文明漂洋过海的过程是很有帮助的。</string>
+    <string name="lyon">里昂是一个有着两千多年悠久历史的城市。15世纪，里昂成为世界上最大的丝绸生产国之一。17世纪时，它曾是法国的政治、经济和文化中心。今天它是一个大学城，一个工业城市。里昂古城被群山环绕，被联合国教科文组织列为世界文化遗产，更增添了它的神秘色彩。</string>
+    <string name="jiaotang">位于里昂市中心西侧的富维尔圣母教堂，耸立在富维尔山之上。它经常被视为里昂的象征，可以乘坐缆车或沿着陡峭的斜坡向上走。它建于1872年至1896年间，外观为罗马和拜占庭风格，装饰华丽的窗玻璃、马赛克和装饰品，内部镶嵌着令人惊叹的马赛克和壁画。外观是拜占庭和中世纪风格的融合，大理石和玻璃装饰成彩虹般的颜色，精致的马赛克和壁画。在圣母玛利亚教堂的顶上，圣母玛利亚的雕像矗立着，在阳光下闪闪发光。站在教堂左边的平台上，你可以看到里昂的整个城市。</string>
+    <string name="lianggejuyuan">里昂国家歌剧院位于市政厅的东侧，始建于1831年，1993年翻新为一座现代剧院。它的特色玻璃拱门是一个六层半圆柱体的玻璃和钢结构，与古老的大理石歌剧院和谐地融合在一起，仿佛它是一个巨大的、非常现代的背景，突出了上面的雕塑。晚上，新建筑亮起红灯，里昂人亲切地称它为“面包烤炉”。这座六层楼高的建筑的完工面积是歌剧院的三倍，歌剧院用于排练和演艺人员的日常排练。同时，建筑师还挖掘了歌剧院的一层，并建造了另外五个作为主要建筑的场地。</string>
+    <string name="nice">尼斯是法国著名的旅游和度假胜地。城市众多的历史古迹、博物馆、美术馆和娱乐场所吸引了大量的游客。尼斯东部有旧城和港口，西部有新城。城市的主要景点和观光景点:massena广场散步,艾伯特我花园的,英国海滨大道(7公里),美国沿海大道,拉尔斯卡里宫殿,圣雷帕拉修道院,网站古罗马的斗兽场,马克·夏加尔博物馆,马蒂斯博物馆,朱尔斯,雷声艺术博物馆,现代艺术画廊和考古博物馆,展览宫等。</string>
+    <string name="nisihu">位于苏格兰高地的尼斯湖以其美丽的风景和神秘的“怪物”传闻而闻名，即将成为联合国世界遗产。</string>
+    <string name="lable51">伦敦</string>
+    <string name="lable52">爱丁堡</string>
+    <string name="lable53">加的夫</string>
+    <string name="londun">伦敦是英国的政治、经济、文化、金融中心，也是世界著名的旅游胜地，拥有众多的景点和博物馆。</string>
+    <string name="londun1">伦敦塔的旁边是伦敦塔，它横跨泰晤士河上的铁桥，因靠近伦敦塔而得名。塔内有楼梯、博物馆、展览馆、商店、酒吧等。从塔顶上，你可以欣赏到泰晤士河上下十英里的景色。以雾锁桥为例，景观更为独特，雾锁塔桥是伦敦的一大名胜。</string>
+    <string name="london2">大本钟，也被称为伊丽莎白塔，是伦敦最具标志性的建筑之一。大本钟是世界上最著名的哥特式建筑之一，它巨大而宏伟。自1859年以来，大本钟一直在伦敦金融城报时。根据格林尼治时间，它每小时都在罢工。</string>
+    <string name="edinburgh">爱丁堡就像中世纪戏剧的宏大背景，可以看到宣礼塔、城堡、悬崖和古典石柱。爱丁堡人民在与来自英国的威胁作斗争的历史中，形成了崇尚独立和自由的民族性格。庄严的爱丁堡城堡就是这个角色的象征。乔治王朝时期的房屋，美妙的博物馆和令人敬畏的城堡排列在街道两旁，使这个苏格兰首都成为哈德良长城以北最好的景点之一。爱丁堡也有书香浓郁的一面，这座小城到处都是剧院、博物馆和画廊。著名的爱丁堡国际艺术节汇集了来自世界各地的顶尖艺术团体，每年吸引的艺术爱好者都超过了当地居民。在新古典主义时期，作家、艺术家和评论家聚集在爱丁堡，赢得了“北方的雅典”的美誉。</string>
+    <string name="chengbao">爱丁堡城堡坐落在一座死火山的花岗岩屋顶上，从市中心的每一个角落都能看到它，没有一个游客会错过它。爱丁堡城堡在6世纪成为皇家要塞。玛格丽特女王于1093年去世后，爱丁堡城堡成为一个重要的皇室住所和国家行政中心。</string>
+    <string name="dadao">皇家哩大道是爱丁堡最著名的地区之一,主要的旅游景点在本文中包括四个街道相连的大道,从西到东,分别城堡山,Lawnmarket,高街和阿桑奇,皇家英里路结束了爱丁堡城堡和好莱坞路德宫,分别是史上重要的皇家住所在苏格兰,连接两个皇家英里爱丁堡成为中世纪的重要途径。</string>
+    <string name="cardiff">加的夫是英格兰西南部重要的港口、工业和服务中心，也是威尔士的首都。位于布里斯托尔湾北岸，塔夫脱河口。这座城市有346,100人口(2011年)，靠近南威尔士的煤田。在20世纪初，它是世界上最大的煤炭出口港口。现代的街道和建筑与古老的街道和教堂共存。有国家博物馆，威尔士国家博物馆;在城市的西部有一个飞机场。</string>
+    <string name="wan">加的夫的公园是世界著名的，在规模不大的城市，竟然有1200个!公园与市中心商业区很好地融合在一起，所以当你在购物时，你可能会在其中一个公园里欣赏风景。</string>
+    <string name="qiuchang">千年球场位于英格兰的加的夫，是威尔士足球队的主场。千年球场于1999年由威尔士橄榄球联盟开放，以举办1999年橄榄球世界杯。它耗资1.26亿英镑，可容纳74500名观众。</string>
+    <string name="tokyo">东京的著名观光景点有东京铁塔,黄菊,东京国会,韩国,浅草寺和超然的宫殿,上野公园和动物园,葛兰西临海公园,台湾和彩虹桥和东京迪斯尼乐园,代代木公园,日比谷公园,新宿豫园万丽,出口会幕,奥多,Hellokitty天堂,朝圣,忍受野生八湖海,池袋,上野公园,东映动画画廊,涩谷,精灵峡谷,丰田汽车,筑地市场,以及深坞、秋叶原、双桥、合田公园、滨海湾独立式宫苑筑地鱼市等。</string>
+    <string name="dongjingta">东京天空塔位于东京塔的一波又一波的油墨撤销,从东吴系方式及其子公司,东武塔天空树共同准备,7月14日开始,2008年5月22日竣工,2012年启用,和它的高度是634.0米,是世界第二高塔,仅次于迪拜塔,世界上最高的自立式电波塔。</string>
+    <string name="caihong">彩虹桥是东京的一座悬索桥，横跨东京湾北部，连接港口地区的石浦和岱昌。它被正式命名为首都高速公路太仓11号线东京港连接桥。1987年开工，1993年竣工，同年8月26日通车。</string>
+    <string name="guangdao">广岛是日本本州岛以西的一个沿海城市，在日本的三个都市圈之外形成了广岛的都市圈。它在第二次世界大战中被美国的原子弹摧毁，并于1958年重建。</string>
+    <string name="jiniangongyuan">广岛和平纪念公园，位于日本南部本州岛广岛市中心，外圆屋顶上的原子弹爆炸。1945年，日本投降，就在日本二战投降前不久，美国向广岛投下一颗原子弹，摧毁了这座城市。从那以后，东京每年都会在公园举行纪念活动，纪念遇难者，并警告日本人不要侵略其他国家。在广岛和平纪念公园旁边，有一个圆形的原子弹纪念碑，见证了这场悲剧的痛苦。</string>
+    <string name="cheng">城内部是一个历史博物馆，主题是广岛的发展和武士家族的文化。照片和视频描述了广岛的历史，从古代到广岛城市的建设，再到明治时代。除了关于广岛文化的展览，还有武士和商人住宅的大型模型展览。三楼、四楼分别为剑展室、主题特展室，五楼为瞭望塔。除了展示历史上的工艺品，广岛也是一个著名的樱花盛开的地方，每年春天都会吸引很多游客。</string>
+    <string name="changqi">长崎是日本九州岛西海岸著名的港口城市，是长崎县的首府。长崎位于日本的西端，距上海仅800公里，自古以来就是连接中国和日本的桥梁。长崎是日本封闭时代为数不多的对外开放港口之一。它是一个交通枢纽城市，英国、葡萄牙和荷兰通过它与日本有着密切的联系。</string>
+    <string name="zhonghuajie">长崎新一中泽街是日本长崎县新一镇的唐人街。与横滨中华街和神户南京镇并列，被列为日本的三大中华街。新地中华街石板路至长崎市的姊妹城市福建省福州市协助建设。这条街上有近40家中餐馆和商店。</string>
+    <string name="click">位于长崎西北，海拔332米的稻阪山，以其最美丽的景色而闻名全国。从山顶的圆形瞭望塔上，不仅可以看到美丽的长崎港，也可以看到北面的长崎市区。在晴朗的日子里，你还可以看到云仙、天狗和五岛的全景。</string>
+    <string name="Login">登陆页面</string>
+    <string name="name">手机号：</string>
+    <string name="password">密码：</string>
+    <string name="yes">登录</string>
+    <string name="Register">注册页面</string>
+    <string name="yes2">注册</string>
+    <string name="click_login">登录</string>
+    <string name="click_register">注册</string>
+    <string name="no">注册</string>
+    <string name="ab">用户名：</string>
+    <string name="mmm">进入主页</string>
+    <string name="s">我们为您提供的服务：</string>
+    <string name="ss">我们为您提供了较为多样化的产品，您能够通过对产品的比较来进行选择。 首先，最小的产品即为只提供旅游讲解服务；其次，中等产品为景点安排规划及讲解服务；最后，是我们的终极服务，关于您的行程一条龙服务。 希望您旅途愉快！</string>
+    <string name="bbb">这些可能会帮助到您！</string>
+    <string name="hj">请您拨打我们的热线电话8888-8888，有任何问题欢迎致电！ 希望您旅途愉快！</string>
+    <string name="se">service</string>
 </resources>

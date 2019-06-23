@@ -85,34 +85,6 @@
         android:text="@string/lable_Japan"
         android:textColor="#44BDED"
         android:textSize="30sp" />
-
-
-
-
-
-    <Button
-        android:id="@+id/btnIndia"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="start"
-        android:text="@string/lable_India"
-        android:textColor="#44BDED"
-        android:textSize="30sp" />
-
-
-
-
-    <Button
-        android:id="@+id/btnAustralia"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="start"
-        android:text="@string/lable_Australia"
-        android:textColor="#44BDED"
-        android:textSize="30sp" />
-
-
-
-
+    
 </LinearLayout>
 </ScrollView>

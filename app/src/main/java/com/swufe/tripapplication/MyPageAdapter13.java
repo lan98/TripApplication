@@ -10,7 +10,7 @@ import android.view.View;
 
 public class MyPageAdapter13 extends FragmentPagerAdapter{
 
-    private String[] title = new String[]{"Chengdu","The Dujiangyan Irrigation System","Giant panda breeding research base","Temple of marquis","Du fu thatched cottage"};
+    private String[] title = new String[]{"成都","都江堰","熊猫基地","武侯祠","杜甫草堂"};
 
     public MyPageAdapter13(FragmentManager fm) {
         super(fm);

@@ -7,7 +7,7 @@ import android.support.v4.app.FragmentPagerAdapter;
 
 public class MyPageAdapter12 extends FragmentPagerAdapter {
 
-    private String[] title = new String[]{"Shanghai","The site of the CPC national congress","Chenghuang temple","The grand view garden","Yu garden"};
+    private String[] title = new String[]{"上海简介","中共一大会址","城隍庙","大观园","豫园"};
 
     public MyPageAdapter12(FragmentManager fm) {
         super(fm);

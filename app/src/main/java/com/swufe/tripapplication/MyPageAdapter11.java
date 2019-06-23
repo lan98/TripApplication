@@ -10,7 +10,7 @@ import android.view.View;
 
 public class MyPageAdapter11 extends FragmentPagerAdapter {
 
-    private String[] title = new String[]{"Beijing","The tiananmen square","The Great Wall","The Forbidden City","The Summer Palace"};
+    private String[] title = new String[]{"北京简介","天安门","长城","故宫","颐和园"};
 
     public MyPageAdapter11(FragmentManager fm) {
         super(fm);

@@ -7,7 +7,7 @@ import android.support.v4.app.FragmentPagerAdapter;
 
 public class MyPageAdapter51 extends FragmentPagerAdapter {
 
-    private String[] title = new String[]{"London","The tower of London","Big Ben"};
+    private String[] title = new String[]{"伦敦简介","伦敦塔","大本钟"};
 
     public MyPageAdapter51(FragmentManager fm) {
         super(fm);
