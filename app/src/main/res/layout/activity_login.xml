@@ -1,123 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".LoginActivity">
-
-    <LinearLayout
-        android:orientation="vertical"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
 
     <TextView
-        android:id="@+id/Login"
-        android:layout_width="match_parent"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:gravity="center"
-        android:text="@string/Login"
-        android:textColor="#212121"
-        android:textSize="50sp" />
+        android:text="欢迎进入登录界面!"
+        android:textSize="30dp"
+        android:textStyle="bold" />
 
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <TextView
-            android:id="@+id/UserName"
-            android:layout_width="91dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="30sp"
-            android:text="@string/ab"
-            android:textSize="30sp" />
-
-        <EditText
-            android:id="@+id/username"
-            android:layout_width="318dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="40sp"
-            android:inputType="text"
-            android:textSize="30sp" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <TextView
-            android:id="@+id/Phone"
-            android:layout_width="91dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="30sp"
-            android:text="@string/name"
-            android:textSize="30sp" />
-
-        <EditText
-            android:id="@+id/phone"
-            android:layout_width="318dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="40sp"
-            android:autofillHints="@string/name"
-            android:inputType="phone"
-            android:textSize="30sp" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <TextView
-            android:id="@+id/Password"
-            android:layout_width="91dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="30sp"
-            android:text="@string/password"
-            android:textSize="30sp" />
-
-        <EditText
-            android:id="@+id/password"
-            android:layout_width="318dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="40sp"
-            android:autofillHints="@string/password"
-            android:inputType="textMultiLine|textPassword"
-            android:textSize="30sp" />
-
-    </LinearLayout>
-
-    <Button
-        android:id="@+id/yes"
-        android:layout_width="match_parent"
+    <TableLayout
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:background="#ffd600"
-        android:text="@string/yes"
-        android:textColor="#212121"
-        android:layout_marginTop="150sp"
-        android:layout_marginRight="100sp"
-        android:layout_marginLeft="100sp"
-        android:textSize="40sp" />
+        android:stretchColumns="1" >
 
-    <Button
-        android:id="@+id/no"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="@string/no"
-        android:layout_marginTop="30sp"
-        android:layout_marginRight="100sp"
-        android:layout_marginLeft="100sp"
-        android:background="#ffd600"
-        android:textColor="#212121"
-        android:textSize="40sp" />
+        <TableRow >
 
-    </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="用户名：" />
+            <EditText
+                android:id="@+id/username"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="请输入用户名！！！" />
+        </TableRow>
+        <TableRow >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="密码：" />
 
-</RelativeLayout>
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="请输入密码！！！"
+                android:inputType="textPassword" />
+        </TableRow>
+        <TableRow >
+            <TextView />
+            <LinearLayout >
+
+                <Button
+                    android:id="@+id/login"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:onClick="click1"
+                    android:text="登录" />
+
+                <Button
+                    android:id="@+id/register"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:onClick="click2"
+                    android:text="注册" />
+            </LinearLayout>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
